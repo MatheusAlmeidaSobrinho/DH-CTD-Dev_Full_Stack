@@ -1,0 +1,68 @@
+body {
+  width: auto;
+  height: 97.5vh;
+  background: linear-gradient(130deg, rgb(149, 87, 185), rgb(63, 154, 170));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#frm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#container {
+  width: fit-content;
+  margin: 50px;
+  padding: 25px;
+  border: 10px groove rgb(107, 107, 107);
+  border-radius: 20px;
+  background: linear-gradient(130deg, rgb(206, 155, 236), rgb(118, 216, 233));
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#menu span {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#numeros {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#n1,
+#n2 {
+  padding: 3px;
+  margin: 10px 10px 20px 0px;
+}
+
+#bSoma,
+#bSubtracao,
+#bMultiplicacao,
+#bDivisao {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px 10px 20px 0px;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+}

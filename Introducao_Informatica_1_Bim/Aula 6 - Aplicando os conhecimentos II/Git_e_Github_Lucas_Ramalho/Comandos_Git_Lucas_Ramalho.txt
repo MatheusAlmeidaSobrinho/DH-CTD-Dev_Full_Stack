@@ -1,0 +1,85 @@
+
+*** Comandos Terminal Bash ***
+
+- Listar 
+Arquivos no diretório ou pasta
+	$ ls
+Todos os arquivos, incluindo arquivos ocultos
+	$ ls-a
+Mostrar todas as informações sobre uma pasta: usuário, grupo,permissões, tamanho, data e hora de criação
+	$ ls-l
+
+- Exibir pasta sendo trabalhada
+	$pwd
+
+- Criar um novo diretório ou pasta
+	$ mkdir [Pasta]
+
+- Criar um novo arquivo
+	$ touch [nomeArquivo.extensão]
+
+- Navegando entre pastas
+Voltar um nível de pasta
+	$ cd ..
+Mudar pasta
+	$ cd
+Mudar para uma pasta específica
+	$ cd [diretorio escolhido]
+
+- Editar arquivo
+	$ Echo
+
+
+
+===================================================================================================================================
+
+
+
+*** Comandos Git ***
+
+- Inicializar um repositório local
+	$ git init
+
+- Adicionar nossa identidade ao repositório local
+Nome Usuário
+	$ git config user.name "nomeDeUsuário"
+E-mail
+	$ git config user.email "nome@email.com"
+
+* Para configurar a identidade de maneira global, não tendo que declarar sempre o e-mail e nome de usuário
+	$ git config --global user.name "nomeDeUsuario"
+	$ git config --global user.email "nome@email.com"
+
+- Verificar o estado dos nossos arquivos
+	$ git status
+
+- Adicionar ao repositório
+Todos os arquivos
+	$ git add .
+Somente um arquivo
+	$ git add arquivo.extensao
+
+- Confirmar que queremos subir os arquivos adicionados
+	$ git commit -m "mensagem"
+
+- Ajuda
+	$ git help
+
+- Visualizar configurações do Git
+	$ git config list
+
+- Remover um arquivo ou diretório
+Arquivo
+	$ git rm arquivo
+Diretório (remove o diretorio e os arquivos dentro dele)
+	$ git rm -r diretorio
+
+- Histório de atividades
+	$ git log
+
+- Clonar um repositorio
+	$ git clone git@github.com:meunome/arquivo-git.git
+
+- Subir arquivo na nuvem
+	$ git push origin main (master)
+

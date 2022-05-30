@@ -1,0 +1,8 @@
+- `$ git init` -> Inicializa um repositório Git
+- `$ git status` -> Verifica o status do repositório
+- `$ git add .` -> Adiciona todos os arquivos do diretório ao stage (stage = arquivos que estão sendo modificados)
+- `$ git commit -m "Mensagem"` -> Cria um commit, um ponto de alteração no repositório
+- `$ git push` -> Envia os commits para o repositório remoto
+- `$ git pull` -> Atualiza o repositório local com os commits do repositório remoto
+- `$ git clone` -> Cria um repositório local a partir de um repositório remoto
+- `$ git log` -> Mostra todos os commits do repositório  

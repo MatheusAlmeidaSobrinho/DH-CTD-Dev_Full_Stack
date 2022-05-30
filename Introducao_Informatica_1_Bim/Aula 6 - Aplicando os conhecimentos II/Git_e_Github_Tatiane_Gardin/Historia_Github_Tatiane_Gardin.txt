@@ -1,0 +1,15 @@
+O Git é um projeto de código aberto maduro e com manutenção ativa desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux.
+Toda a história da criação do Git se dá em torno do Kernel do Linux. Ele e seu versionamento foram mantidos durante muito tempo no Bitkeeper, mas a empresa por trás dele, a BitMoover, resolveu ir para uma linha de comercialização do licenciamento de acesso ao software.
+
+Por um tempo, ela permitiu que os desenvolvedores do kernel do Linux usassem a versão gratuita (Freeware), mas um dos mantenedores, Andrew Tridgell, desenvolveu uma versão open source do client, uma ferramenta que poderia trabalhar com o código fonte armazenado no BitKeeper. Porém, a BitMoover ficou extremamente insatisfeita e considerou como violação da licença e engenharia reversa a criação desse client.
+
+Após meses de negociação, esse acesso gratuito foi revogado e surgiu a necessidade da criação de algo que não só substituísse. Mas fosse melhor que o Bitkeeper. Linus e todas as pessoas que mantinham o Kernel começaram a busca, mas nenhuma das opções de controle de versão descentralizadas disponíveis atendiam às necessidades. 
+
+Nasce, então, o Git com a proposta de resolver a necessidade de um sistema de distribuição descentralizada, e que seguisse a filosofia de software livre, assim como o Linux, e sem se preocupar em ficar preso a uma ferramenta proprietária que de um dia pro outro os criadores resolvessem comercializá-lo. 
+
+Visto de um ângulo técnico, o Git é uma ferramenta semelhante ao Bitkeeper por trabalhar de forma distribuída e uma coisa que acho interessante é que grande parte do flow que conhecemos no Git, veio do flow aprendido com o uso do Bitkeeper. Porém, mesmo com essa semelhança a ideia nunca foi ter um clone.
+
+Quando foi criado, a pretensão era resolver exclusivamente o problema relacionado ao Kernel do Linux. Mas hoje o Git se tornou uma das ferramentas mais utilizadas no mundo inteiro para controle de versão.
+A Microsoft comprou o GitHub, plataforma usada por desenvolvedores para hospedar códigos, por US$ 7,5 bilhões.
+O GitHub é um repositório popular de projetos de códigos com mais de 10 anos e usado por 28 milhões de desenvolvedores em todo mundo. Também é o espaço em que grandes empresas, como Amazon, Apple e Google, escolhem quando querem mostrar o que estão fazendo. 
+além do terminal, é possivel trabalhar com o Github pelo VS code 

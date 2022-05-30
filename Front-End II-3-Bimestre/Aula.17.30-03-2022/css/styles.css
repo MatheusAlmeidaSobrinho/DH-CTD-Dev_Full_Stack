@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #ffed78;
+    --secondary: #745833;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  height: 275px;
+  max-width: 375px;
+
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnContainer{
+  padding: 20px;
+  text-align: center;
+}
+.btnContainer button{
+  padding: 5px 15px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(193, 193, 194);
+  font-weight: bold;
+}
+
+button:hover {
+  color:white;
+  background-color: rgb(95, 95, 95);
+}
+
+img {
+  max-width: 150px;
+  box-shadow: 2px 2px 6px 0px black;
+  border-radius: 7px;
+
+}
+
+h2,p {
+  margin-bottom:5px;
+}
+
+#imgCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom:8px;
+
+}

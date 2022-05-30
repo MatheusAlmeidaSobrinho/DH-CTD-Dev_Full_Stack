@@ -1,0 +1,26 @@
+O que é software e hardware? Entenda a diferença entre os termos
+
+Muitos usuários fazem um pouco de confusão quando o assunto é Hardware ou Software.
+Isso é bem comum, afinal os nomes são parecidos e estrangeiros. No entanto, cada um tem uma funcionalidade bem diferente mas um completa o outro, a seu modo. Para entender melhor, descubra afinal para o que servem os Hardwares e Softwares, além de ver como eles estão presentes no dia a dia das pessoas.
+Já o software pode ser entendido como a “mente” que comanda a máquina, composta por elementos que não são palpáveis. Ele é formulado por meio de códigos e combinações para funcionar da maneira ideal. Então, os sistemas operacionais, como Windows, Mac OS, Android, iOS são softwares, cada um formulado à sua maneira.
+Para simplificar, vamos usar como exemplo um computador de mesa com sistema da Microsoft. A parte física composta pelo CPU, placa de vídeo, memória RAM, placa-mãe, drive de armazenamento e todos os demais aparatos palpáveis integram o hardware deste PC. O software é ativado no momento em que você liga a máquina, sendo instalado no drive de armazenamento interno. Logo, o software é o Windows, composto por códigos.
+Os sistemas operacionais são softwares de base que funcionam em conjunto com outros softwares chamados de drivers, que são responsáveis pelo funcionamento de cada parte do computador. Logo, existe um software específico para enviar comandos capazes de fazer com que a placa de vídeo funcione de forma correta, por exemplo. Assim, o software é a “mente” que dá o comando para a máquina funcionar, por isso, um precisa do outro para oferecer um serviço completo para o usuário. Se trata, por fim, de um conjunto de instruções, códigos e dados que são processado pelos circuitos eletrônicos do hardware.
+Dentro dos Hardwares existem equipamentos com diferentes tipos de uso. Há quem prefira uma placa-mãe com melhor desempenho, memórias maiores, placa de vídeo mais potentes para quem gosta de videogames e mais. O mesmo ocorre com os Softwares, com as mais diferentes configurações para os gostos dos usuários. Os teclados e mouses também são considerados Hardwares e equipamentos periféricos de entrada.
+
+A maior parte dos equipamentos eletrônicos digitais precisa de hardwares e softwares básicos para funcionar, e eles normalmente já vêm de fábrica. Então, eles estão presentes em diferentes dispositivos do dia a dia, como celulares, computadores, relógios inteligentes, câmeras digitais, e até Smart TVs. Depois, os usuários podem incrementar e alterar os softwares, dependendo do dispositivo, baixando novos programas pelo computador e mais. O mesmo pode ser feito com o hardware, caso tenha o conhecimento mais específico, para aumentar a capacidade da memória RAM, armazenamento interno, dentre outras funções. O conjunto de hardware e software geram diferentes produtos, cada um com funcionamento particular, como MACs, PCs, Workstations e mais.
+Muitos dos problemas em computadores podem ser indicados pelo mal funcionamento de um software, em caso de travamentos por exemplo, ou de uma das peças do hardware. É possível retirar um software de funcionamento por meio da desinstalação, na qual os dados dele são apagados. No caso do sistema operacional, é possível também fazer uma recuperação de dados. Para isso, precisa apenas de alguns comandos, cliques e ponto. Tudo está feito. Já para trocar ou retirar um hardware do computador, por exemplo, o usuário precisa colocar a mão na massa, desplugar os cabos, retirar a peça física e fazer a substituição.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

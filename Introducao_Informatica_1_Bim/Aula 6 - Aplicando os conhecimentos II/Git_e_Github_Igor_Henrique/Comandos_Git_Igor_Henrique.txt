@@ -1,0 +1,14 @@
+- Criar um novo repositório local
+$ git init
+
+- Criar um novo ponto na história (rastrear os arquivos)
+$ git add .
+
+- Enviar o ponto na história para o seu repositório
+$ git commit -m
+
+- Mostrar os pontos da história do projeto
+$ git log
+
+- Motrar o estado dos arquivos do projeto
+$ git status

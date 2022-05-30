@@ -1,0 +1,187 @@
+@import url('./common.css');
+
+body{
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(116, 116, 116);
+  font-weight: 300;
+  margin: .5em 0;
+}
+
+form {
+  position: relative;
+  max-width: 26em;
+  /* background-color: white;*/
+  background: transparent;
+  color:white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em auto;
+  box-shadow: 0 4px 1px rgba(222, 73, 239, 0.5);
+  padding: 1em 2.5em;
+  box-sizing: border-box;
+  border-top: 0.1px solid rgba(222, 73, 239, 0.6);
+  border-right: 0.1px solid rgba(222, 73, 239, 0.6);
+  border-radius: 3px;
+}
+
+form:after {
+  position: absolute;
+  content: '';
+  width: .6em;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(100deg, rgba(255, 255, 255),rgba(222, 73, 239, 0.6));
+}
+
+
+input {
+  color:white;
+  width: 100%;
+  padding: .4em .5em;
+  margin-top: 4px;
+  /*background-color: var(--app-grey);
+  border: 1px solid var(--app-grey);
+  border-radius: .2em;
+  box-shadow: 2px 1px 2px 0px rgba(255, 255, 255);*/
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.728);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid lightgrey;
+}
+
+small {
+  display: flex;
+  margin-top:3px;
+  letter-spacing: 0.05rem;
+  position: absolute;
+}
+
+#repetirSenhaValidacaoCadastro {
+  display: flex;
+  margin-top:3px;
+  letter-spacing: 0.05rem;
+}
+
+label {
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: -.1em;
+  margin-top: 1em;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+  position: relative;
+  padding-top:12px ;
+}
+
+button {
+  padding: .5rem 1.75rem;
+  background-color: var(--primary);
+  color: white;
+  margin-top: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #6e6e6e;
+}
+
+.form-header {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+.ingressar{
+  text-align: center;
+}
+.left{
+  width: 50%;  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(220, 219, 219);;
+}
+.left img{
+  width:60%;
+  padding:10px;
+  box-shadow: 10px 10px 40px 1px rgba(255, 255, 255, 0.9);
+  border-radius:999px;
+}
+.right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(10, 25, 70, 0.8)
+}
+
+/* Estilo confirmação de senha */
+#mensagem {
+  display:flex;
+  flex-direction: column;
+  margin:5px;
+  padding:5px;
+}
+
+.valid {
+  color: rgb(126, 200, 237);
+}
+
+.invalid {
+  color: rgba(255, 0, 0, 0.75);
+}
+
+#mensagem h3 {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+#mensagem p {
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+small {
+  margin-top:4px;
+}
+
+.ingressar a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.541);
+  border-radius:5px;
+  padding: 2px;
+}
+
+.ingressar a:hover{
+background: rgba(255, 255, 255, 0.441);
+}
+
+@media (max-width: 460px) {
+ .left{
+   display: none;
+  }
+
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

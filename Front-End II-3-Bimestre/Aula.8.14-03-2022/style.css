@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(81, 152, 180),
+    rgb(17, 74, 97)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
+.tituloCadastro {
+  color: rgb(74, 16, 90);
+  align-self: center;
+  font-size: 3rem;
+  font-family: 'Righteous', 'cursive';
+  letter-spacing: 2px;
+  font-style: oblique;
+  font-weight: bold;
+  margin-left: 30%;
+  animation: expandirletras 2s cubic-bezier(0.2, 0.6, 0.3, 1) both;
+  text-shadow: 3px 3px 5px #ba6fec;
+}
+
+@keyframes expandirletras {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.botaoHeaderCadastro {
+  display: flex;
+  height: 72px;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.botaoVoltar {
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Righteous', 'cursive';
+  background: linear-gradient(to bottom, #3a38d7, #6219a8);
+  border: 2px solid #64349b;
+  border-radius: 25px;
+  padding: 8.5px;
+  text-shadow: 1px 1px 2px #a27fff;
+  box-shadow: 1px 1px 2px #6f40be;
+  transition: all 0.1s ease;
+  margin-left: 15px;
+}
+.botaoVoltar:hover {
+  font-weight: bold;
+  opacity: 0.9;
+  background: linear-gradient(bottom, #3a38d7, #6219a8);
+  border: 3px solid #7649a8;
+  border-radius: 25px;
+  text-shadow: 1px 2px 3px #a27fff;
+  box-shadow: 1px 2px 4px #6f40be;
+  transition: all 0.1s ease;
+}
+/* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
+
+/* MAIN PARTE DO CADASTRO */ /* MAIN PARTE DO CADASTRO */ /* MAIN PARTE DO CADASTRO */
+/* DEFINIÇÕES PARA TODOS OS FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* DEFINIÇÕES PARA  TODOS OS FORM */
+
+/* DEFINIÇÕES PARA  TODOS OS FIELDSET */
+fieldset {
+  margin-top: 25px;
+  background: linear-gradient(
+    to bottom,
+    rgba(198, 126, 231, 0.7),
+    rgba(31, 8, 36, 0.8)
+  );
+  border: 3px solid rgba(91, 31, 114, 0.3);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(253, 251, 251, 0.767);
+  width: 620px;
+}
+/* DEFINIÇÕES PARA  TODOS OS FIELDSET */
+
+input,
+option,
+textarea,
+select {
+  color: black;
+}
+
+legend {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  border: 3px solid rgba(81, 33, 100, 0.555);
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    rgba(198, 126, 231, 0.9),
+    rgba(28, 7, 32, 0.9)
+  );
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* CAMPO NOME */
+.cadNome {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelNome {
+  margin-right: 1%;
+  padding: 5px;
+}
+
+#inputNome {
+  width: 300px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputNome:hover {
+  transform: scale(1.2) translate(22px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+#inputNome:focus {
+  transition-property: all;
+  transition-duration: 0.75s;
+  background-color: rgba(243, 168, 168, 0.8);
+}
+
+#inputNome:valid {
+  transition-property: all;
+  transition-duration: 0.75s;
+  background-color: rgba(221, 169, 241, 0.8);
+}
+
+/* CAMPO NOME */
+/* CAMPO EMAIL */
+.cadEmail {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelEmail {
+  margin-right: 1%;
+  padding: 5px 8.5px 5px 5px;
+}
+
+#inputEmail {
+  width: 300px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputEmail:hover {
+  transform: scale(1.2) translate(22px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+#inputEmail:focus {
+  transition-property: all;
+  transition-duration: 0.75s;
+  background-color: rgba(243, 168, 168, 0.8);
+}
+
+#inputEmail:valid {
+  transition-property: all;
+  transition-duration: 0.75s;
+  background-color: rgba(221, 169, 241, 0.8);
+}
+/* CAMPO EMAIL */
+/* CAMPO GENERO */
+.cadGenero {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelGenero {
+  margin-right: 1%;
+  padding: 5px 13.5px 5px 5px;
+}
+
+#selectGenero {
+  width: 200px;
+  height: 22.5px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#selectGenero:hover {
+  transform: scale(1.2) translate(13px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+/* CAMPO GENERO */
+/* CAMPO CPF */
+.cadCpf {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelCpf {
+  margin-right: 1%;
+  padding: 5px 23px 5px 5px;
+}
+
+#inputCpf {
+  width: 200px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputCpf:hover {
+  transform: scale(1.2) translate(12.75px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+/* CAMPO CPF */
+/* CAMPO TELEFONE */
+.cadTel {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelTel {
+  margin-right: 1%;
+  padding: 5px 27px 5px 5px;
+}
+
+#inputTel {
+  width: 200px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputTel:hover {
+  transform: scale(1.2) translate(12.75px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+/* CAMPO TELEFONE */
+/* CAMPO DATA NASCIMENTO */
+.cadDataNasc {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelDataNasc {
+  margin-right: 1%;
+  padding: 5px 15px 5px 5px;
+}
+
+#inputDataNasc {
+  width: 156px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputDataNasc:hover {
+  width: 160px;
+  transform: scale(1.2) translate(12.75px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+
+/* CAMPO DATA NASCIMENTO */
+/* CAMPO OPÇÃO FAIXA ETARIA 18+ */
+.faixaIdade {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menorOUmaiorIdade {
+  margin-right: 5%;
+  padding: 5px;
+}
+
+.menorIdade {
+  margin-right: 5%;
+  margin-left: 1%;
+  padding: 10px 5px 5px 5px;
+}
+
+.maiorIdade {
+  margin-right: 5%;
+  margin-left: 1%;
+  padding: 10px 5px 5px 5px;
+}
+
+#menorIdade {
+  height: 12px;
+  width: 12px;
+}
+
+#menorIdade:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#maiorIdade {
+  height: 12px;
+  width: 12px;
+}
+
+#maiorIdade:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+/* CAMPO OPÇÃO FAIXA ETARIA 18+ */
+/* CAMPO RUA */
+.ruaMaisNumero {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.cadRua {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelRua {
+  margin-right: 6.5%;
+  padding: 5px;
+}
+
+#inputRua {
+  width: 325px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputRua:hover {
+  transform: scale(1.2) translate(23px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+/* CAMPO RUA */
+/* CAMPO NUMERO */
+.cadNumero {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 0;
+  padding: 0;
+  width: 120px;
+}
+
+.labelNumero {
+  margin-right: 1%;
+  padding: 5px;
+}
+
+#inputNumero {
+  width: 50px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputNumero:hover {
+  transform: scale(1.2) translate(6px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+/* CAMPO NUMERO */
+/* CAMPO BAIRRO */
+.cadBairro {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelBairro {
+  margin-right: 1.7%;
+  padding: 5px;
+}
+
+#inputBairro {
+  width: 300px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputBairro:hover {
+  transform: scale(1.2) translate(22px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+/* CAMPO BAIRRO */
+/* CAMPO CIDADE */
+.cidadeMaisEstado {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.cadCidade {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.labelCidade {
+  margin-right: 1%;
+  padding: 5px;
+}
+
+#inputCidade {
+  width: 225px;
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+}
+
+#inputCidade:hover {
+  transform: scale(1.2) translate(22px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+/* CAMPO CIDADE */
+/* CAMPO ESTADO */
+.cadEstado {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 0;
+  padding: 0;
+  width: 152px;
+}
+
+.labelEstado {
+  margin-right: 1%;
+  padding: 5px;
+}
+
+#selectEstado {
+  border: 2px solid #ce77f093;
+  border-radius: 6px;
+  width: 51px;
+}
+
+#selectEstado:hover {
+  transform: scale(1.2) translate(6px);
+  transition-property: all;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 2px 2px rgba(150, 7, 233, 0.753);
+}
+/* CAMPO ESTADO */
+/*CAMPO STATUS*/
+.statusTurista {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.statusTurista:hover {
+  transform: scale(1.6);
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.statusResidente {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.statusResidente:hover {
+  transform: scale(1.6);
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.statusEstudante {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.statusEstudante:hover {
+  transform: scale(1.6);
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+/*CAMPO STATUS*/
+/*CAMPO PONTOS TURISTICOS*/
+.pontoTuristico {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.pontoTuristico:hover {
+  transform: scale(1.6);
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+/*CAMPO PONTOS TURISTICOS*/
+
+h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Righteous', 'cursive';
+  font-style: italic;
+}
+.status {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.statusOpcao {
+  margin: 10px 0px 10px 10px;
+  width: 30%;
+}
+
+.linhaPontosTuristicos {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.linhasPontosTuristicos {
+  margin: 10px 0px 10px 10px;
+  width: 30%;
+}
+
+/* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */
+.sugestoes {
+  margin-bottom: 10px;
+}
+
+.pDaSugestao {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.textAreaSugestao {
+  border-radius: 10px;
+}
+/* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */ /* FIELDSET SUGESTAO */
+
+/*BOTOES RESET E CADASTRAR*/ /*BOTOES RESET E CADASTRAR*/ /*BOTOES RESET E CADASTRAR*/
+.botoesFinal {
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Righteous', 'cursive';
+  background: linear-gradient(to bottom, #3a38d7, #6219a8);
+  border: 2px solid #64349b;
+  border-radius: 25px;
+  padding: 8.5px;
+  text-shadow: 1px 1px 2px #a27fff;
+  box-shadow: 1px 1px 2px #6f40be;
+  transition: all 0.1s ease;
+  margin: 15px;
+}
+.botoesFinal:hover {
+  font-weight: bold;
+  opacity: 0.9;
+  background: linear-gradient(bottom, #3a38d7, #6219a8);
+  border: 3px solid #7649a8;
+  border-radius: 25px;
+  text-shadow: 1px 2px 3px #a27fff;
+  box-shadow: 1px 2px 4px #6f40be;
+  transition: all 0.1s ease;
+}
+/*BOTOES RESET E CADASTRAR*/ /*BOTOES RESET E CADASTRAR*/ /*BOTOES RESET E CADASTRAR*/
+/* MAIN PARTE DO CADASTRO */ /* MAIN PARTE DO CADASTRO */ /* MAIN PARTE DO CADASTRO */
+footer {
+  background-color: #999898a8;
+}
+
+.divFooter {
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 20px;
+}
+
+.pFooter {
+  font-size: 20px;
+}

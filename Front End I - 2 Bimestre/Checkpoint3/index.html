@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/indexstyle.css" />
+    
+    <title>Home</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container_header">
+        <nav
+          class="
+            navbar navbar-expand-lg 
+            d-flex
+            justify-content-space-between
+          "
+        >
+          <div class="logo d-flex justify-content-start align-items-center">
+            <img class="imgLogo" src="./images/logor.png" />
+            <img class="imgLogo" src="./images/logoe.png" />
+            <img class="imgLogo" src="./images/logom.png" />
+            <div class="textoLogo">BEBIDAS</div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <!--COLOQUEI UM JUSTIFICAR PRO FINAL-->
+            <div class="navbar-nav d-flex align-items-center">
+              <a class="nav-item nav-link active" href="./index.html"
+                >Home <span class="sr-only">(Página atual)</span></a
+              >
+              <a class="nav-item nav-link " href="#h1Itens">Itens</a>
+              <a class="nav-item nav-link" href="./sobreNos.html">Sobre nós</a>
+              <div class="loginEimagem"><a class="nav-item nav-link" id="login" href="./login.html">Login</a>
+              
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container-fluid" id="main_Banner">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./images/img1.jpg"
+              alt="Primeiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Grande variedade de vinhos</h5>
+              <p>Experimente os vinhos mais incríveis ao redor do mundo</p>
+            </div>
+          </div>
+          
+
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/img3.jpg"
+              alt="Segundo Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Controle de estoque</h5>
+              <p>Nossas instalações têm temperatura e umidade específicas para uma boa fermentação</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/img4.jpg"
+              alt="Terceiro Slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Plantação de qualidade</h5>
+              <p>As videiras são cuidadas sem utilização de agrotóxicos em uma região propícia para a plantação</p>
+            </div>
+          </div>
+          
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+
+    <div id="itens">
+      <div class="container ms-5 p-5">
+        <h1 id="h1Itens">Melhores Vinhos do Mundo!</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/itemVinho1.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">La Romanée Grand Cru</h5>
+                <p class="card-text">
+                  O Vinho La Romanée Grand Cru é oriundo do menor Grand Cru da Borgonha e da menor A.O.C. de toda a França, a de La Romanée, com apenas 0.85 hectares
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="https://superadega.vteximg.com.br/arquivos/ids/164034-1000-1000/vinho-petrus--1-.jpg?v=636069433721170000"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Château Petrus</h5>
+                <p class="card-text">
+                  O processo de elaboração do Petrus é minucioso. As uvas da casta Merlot que o compõem são colhidas no período da tarde, protegendo assim  os bagos da umidade.
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="https://www.bancadoramon.com.br/media/catalog/product/v/i/vinho-pingus-2008-750ml.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Pingus</h5>
+                <p class="card-text">
+                  O Pingus foi o primeiro rótulo da D.O. (Denominação de Origem) de Ribera del Duero a conquistar a pontuação máxima, 100 pontos, do renomado crítico Robert Parker.
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="https://images.vivino.com/thumbs/uDMfPG10R1efm5H1do--Ow_pb_600x600.png"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Château Lafite Rothschild</h5>
+                <p class="card-text">
+                  O Château Lafite Rothschild está localizado na margem esquerda de Bordeaux, dentro da Apelação de Origem Controlada (A.O.C.) de Pauillac. 
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="https://d37wn8ty40oiam.cloudfront.net/imagens/img_g/137/77160.jpg"
+                alt="Imagem de capa do card"
+              />
+              <div class="card-block">
+                <h5 class="card-title">Rothschild Grand Cru</h5>
+                <p class="card-text">
+                  O Vinho Château Lafite Rothschild Grand Cru Classé é, um dos mais saborosos, melhores e caros vinhos do mundo! Produzido pelos Domaines Barons de Rothschild (Lafite).
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid" 
+                src="https://barnebys.imgix.net/https%3A%2F%2Fwww.kollerauktionen.ch%2FCatCache%2Fcatcache.2%2Fpictures%2F501075%2F501075_M_1.jpg?auto=format%2Ccompress&crop=0&cs=tinysrgb&fit=crop&h=400&ixlib=php-2.3.0&trim=auto&w=400&s=2f938d479a827791fc2b7e152a3c6204"
+                alt="Imagem de capa do card" 
+              />
+              <div class="card-block">
+                <h5 class="card-title">Penfolds Grange Hermitage</h5>
+                <p class="card-text">
+                  Produzido pela Penfolds, o Grange é o vinho mais famoso da Austrália e está oficialmente listado como um ícone do patrimônio da Austrália Sul. Seu sabor e inestimavel.
+                </p>
+                <a href="./descricao.html" class="btn btn-primary">Visite para mais informações</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="containerAluno">
+        <div class="cardAluno">
+          <div class="card-body erick">
+            <h4 class="card-title-footer">Erick dos Santos Niciolli</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+            <div><a href="https://github.com/erickniciolli" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+              <a href="https://www.linkedin.com/in/erick-niciolli/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+            </div>
+          </div>
+        </div>
+        <div class="cardAluno">
+          <div class="card-body matheus">
+            <h4 class="card-title-footer">Matheus de Almeida Sobrinho</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+            <div><a href="https://github.com/MatheusAlmeidaSobrinho" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+              <a href="https://www.linkedin.com/in/matheus-almeida-5bb533220/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+            </div>
+          </div>
+        </div>
+        <div class="cardAluno">
+          <div class="card-body reginaldo">
+            <h4 class="card-title-footer">Reginaldo Roberto da Silva</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+            <div><a href="https://github.com/Reg-Silva" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+              <a href="https://www.linkedin.com/in/reginaldo-roberto-da-silva-a8821645/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-pFooter">
+        <div>Checkpoint 3 desenvolvido em 12/2021
+      </div>
+      
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

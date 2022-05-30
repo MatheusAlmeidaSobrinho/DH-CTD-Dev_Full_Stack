@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/cadastrostyle.css" />
+    <title>Cadastro</title>
+  </head>
+
+  <body>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container_header">
+        <nav
+          class="
+            navbar navbar-expand-lg 
+            d-flex
+            justify-content-space-between
+          "
+        >
+          <div class="logo d-flex justify-content-start align-items-center">
+            <img class="imgLogo" src="./images/logor.png" />
+            <img class="imgLogo" src="./images/logoe.png" />
+            <img class="imgLogo" src="./images/logom.png" />
+            <div class="textoLogo">BEBIDAS</div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <!--COLOQUEI UM JUSTIFICAR PRO FINAL-->
+            <div class="navbar-nav d-flex align-items-center">
+              <a class="nav-item nav-link active" href="./index.html"
+                >Home <span class="sr-only">(Página atual)</span></a
+              >
+              <a class="nav-item nav-link " href="./index.html#h1Itens">Itens</a>
+              <a class="nav-item nav-link" href="./sobreNos.html">Sobre nós</a>
+              <div class="loginEimagem"><a class="nav-item nav-link" id="login" href="./cadastro.html">Login</a>
+              
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- PAGINA DE CADASTRO -->
+    <div class="container-cadastro">
+    <div class="wrapper">
+      <h2>Cadastrar</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nome de usuário" required />
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Digite seu email" required />
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Digite uma senha" required />
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Confirmar senha" required />
+        </div>
+        <div class="policy">
+          <input type="checkbox" />
+          <h3>Eu aceito todos os termos & condições</h3>
+        </div>
+        <div class="botao_registrar">
+            <button type="submit" class="botao">Registrar</button>
+        </div>
+        <div class="text">
+          <h3>
+            Já tem uma conta?
+            <a href="./login.html">Login</a>
+          </h3>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="containerAluno">
+      <div class="cardAluno">
+        <div class="card-body erick">
+          <h4 class="card-title-footer">Erick dos Santos Niciolli</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+          <div><a href="https://github.com/erickniciolli" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/erick-niciolli/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="cardAluno">
+        <div class="card-body matheus">
+          <h4 class="card-title-footer">Matheus de Almeida Sobrinho</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+          <div><a href="https://github.com/MatheusAlmeidaSobrinho" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/matheus-almeida-5bb533220/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="cardAluno">
+        <div class="card-body reginaldo">
+          <h4 class="card-title-footer">Reginaldo Roberto da Silva</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Desenvolveu todos os elementos</h6>
+          <div><a href="https://github.com/Reg-Silva" class="card-link" target="_blank"><img class="card-icon" src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/reginaldo-roberto-da-silva-a8821645/" class="card-link" target="_blank"><img class="card-icon" src="images/linkedin.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-pFooter">
+      <div>Checkpoint 3 desenvolvido em 12/2021
+    </div>
+    
+  </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

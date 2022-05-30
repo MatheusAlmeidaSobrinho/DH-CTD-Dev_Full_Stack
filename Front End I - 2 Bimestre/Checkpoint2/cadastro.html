@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cadastroStyle.css" />
+    <title>Checkpoint II Pagina Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <div class="botaoHeaderCadastro">
+        <a href="../Checkpoint2/index.html">
+          <button class="botaoVoltar">VOLTAR</button>
+        </a>
+        <div class="tituloCadastro">CADASTRE-SE ^-^</div>
+      </div>
+    </header>
+    <main>
+      <form action="/caminhoQueEleIriaIr" id="formDadosCadastrais">
+        <fieldset form="formDadosCadastrais" id="dadosCadastrais">
+          <legend>DADOS CADASTRAIS</legend>
+          <div class="cadNome">
+            <label for="nome" class="labelNome">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="inputNome"
+              placeholder=" Insira seu nome"
+              required
+            />
+          </div>
+
+          <div class="cadEmail">
+            <label for="email" class="labelEmail">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="inputEmail"
+              placeholder=" Insira seu email"
+              required
+            />
+          </div>
+
+          <div class="cadGenero">
+            <label for="genero" class="labelGenero">Sexo:</label>
+            <select type="select" name="genero" id="selectGenero" >
+              <optgroup label="Selecione Seu Genero">
+              <option value="11">Feminino</option>
+              <option value="21">Masculino</option>
+              <option value="31">LGBT+</option>
+              <option value="41">Prefiro não informar</option>
+            </optgroup>
+            </select>
+          </div>
+
+          <div class="cadCpf">
+            <label for="cpf" CLASS="labelCpf">Cpf:</label>
+            <input
+              type="text"
+              name="cpf"
+              id="inputCpf"
+              placeholder=" Opção não obrigatoria!"
+              pattern="[0-9]{11}"
+              maxlength="11"
+              
+            />
+          </div>
+
+          <div class="cadTel">
+            <label for="telefone" class="labelTel">Tel:</label>
+            <input
+              type="tel"
+              id="inputTel"
+              name="telefone"
+              placeholder=" DDD + Numero"
+              pattern="[0-9]{11}"
+              maxlength="11"
+            />
+          </div>
+
+          <div class="cadDataNasc">
+            <label for="dataNasc" class="labelDataNasc">Data Nasc:</label>
+            <input type="date" name="dataNasc" id="inputDataNasc" />
+          </div>
+
+          <div class="faixaIdade">
+            <div class="menorOUmaiorIdade">Idade:</div>
+
+            <input type="radio" name="Idade" id="menorIdade" />
+            <label for="menorIdade" class="menorIdade">Menor 18 anos</label>
+
+            <input type="radio" name="Idade" id="maiorIdade" />
+            <label for="maiorIdade" class="maiorIdade">Maior 18 anos</label>
+          </div>
+        </fieldset>
+
+        <form action="/caminhoQueEleIriaGuardarOsDados" id="formDadosEndereco">
+          <fieldset form="dadosEndereco" id="fieldsetDadosEndereco">
+            <legend>DADOS ENDEREÇO</legend>
+            <div class="ruaMaisNumero">
+              <div class="cadRua">
+                <label for="rua" class="labelRua">Rua:</label>
+                <input type="text" name="rua" id="inputRua" />
+              </div>
+              <div class="cadNumero">
+                <label for="numerocasa" class="labelNumero">Nº:</label>
+                <input type="text" name="numerocasa" id="inputNumero" />
+              </div>
+            </div>
+            <div class="cadBairro">
+              <label for="bairro" class="labelBairro">Bairro:</label>
+              <input type="text" name="bairro" id="inputBairro" />
+            </div>
+            <div class="cidadeMaisEstado">
+              <div class="cadCidade">
+                <label for="cidade" class="labelCidade">Cidade:</label>
+                <input type="text" name="cidade" id="inputCidade" />
+              </div>
+              <div class="cadEstado">
+                <label for="estado" class="labelEstado">Estado:</label>
+                <select type="number" name="estado" id="selectEstado">
+                  <option value="est1">AC</option>
+                  <option value="est2">AL</option>
+                  <option value="est3">AP</option>
+                  <option value="est4">AM</option>
+                  <option value="est5">BA</option>
+                  <option value="est6">CE</option>
+                  <option value="est7">DF</option>
+                  <option value="est8">ES</option>
+                  <option value="est9">GO</option>
+                  <option value="est10">MA</option>
+                  <option value="est11">MT</option>
+                  <option value="est12">MS</option>
+                  <option value="est13">MG</option>
+                  <option value="est14">PA</option>
+                  <option value="est15">PB</option>
+                  <option value="est16">PR</option>
+                  <option value="est17">PE</option>
+                  <option value="est18">PI</option>
+                  <option value="est19">RJ</option>
+                  <option value="est20">RN</option>
+                  <option value="est21">RS</option>
+                  <option value="est22">RO</option>
+                  <option value="est23">RR</option>
+                  <option value="est24">SC</option>
+                  <option value="est25">SP</option>
+                  <option value="est26">SE</option>
+                  <option value="est27">TO</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="fieldsetPontosTuristicos">
+            <legend class="legendPontosTuristicos">PONTOS TURISTICOS</legend>
+
+            <h2>Informe sobre seu Status para nós</h2>
+            <div class="status">
+              <div class="statusOpcao">
+                <input
+                  type="checkbox"
+                  name="statusTurista"
+                  class="statusTurista"
+                /><label for="statusTurista" id="statusTurista">Turista</label>
+              </div>
+              <div class="statusOpcao">
+                <input
+                  type="checkbox"
+                  name="statusResidente"
+                  class="statusResidente"
+                /><label for="statusResidente" id="statusResidente"
+                  >Residente</label
+                >
+              </div>
+              <div class="statusOpcao">
+                <input
+                  type="checkbox"
+                  name="statusEstudante"
+                  class="statusEstudante"
+                /><label for="statusEstudante" id="statusEstudante"
+                  >Estudante</label
+                >
+              </div>
+            </div>
+
+            <h2>Marque pontos turisticos que você possui interesse</h2>
+
+            <div class="linhaPontosTuristicos">
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Cristo Redentor</label
+                >
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Escada Selaron</label
+                >
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Estadio Maracanã</label
+                >
+              </div>
+            </div>
+            <div class="linhaPontosTuristicos">
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Jardim Botânico</label
+                >
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Museu do Amanhã</label
+                >
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Pão de Açucar</label
+                >
+              </div>
+            </div>
+            <div class="linhaPontosTuristicos">
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico"
+                  >Parque Lage</label
+                >
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico">Praias</label>
+              </div>
+              <div class="linhasPontosTuristicos">
+                <input
+                  type="checkbox"
+                  name="pontoTuristico"
+                  class="pontoTuristico"
+                /><label for="pontoTuristico" id="pontoTuristico">Outros</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sugestoes">
+            <legend>SUGESTAO</legend>
+            <div class="textarea">
+              <label for="areaSugestao"
+                ><p class="pDaSugestao">
+                  Sua opnião é importante para nós, informe suas Sugestões ^-^:
+                </p></label
+              >
+              <textarea
+                name="areaSugestao"
+                class="textAreaSugestao"
+                cols="90"
+                rows="5"
+                placeholder="  Insira algum ponto turistico que ficou de fora ou oque você achou de nós ^-^"
+              ></textarea>
+            </div>
+          </fieldset>
+          <div class="buttons">
+            <button type="reset" class="botoesFinal">Limpar</button>
+            <button type="submit" class="botoesFinal">Enviar</button>
+          </div>
+        </form>
+    </main>
+    <footer>
+      <div class="divFooter">
+        <p class="pFooter">Criado por : Matheus de Almeida / João Figueredo</p>
+        <p class="pFooter">Agradecimentos: Tatiane Gardin ^-^</p>
+      </div>
+    </footer>
+  </body>
+</html>

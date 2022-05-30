@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7cb32d0-be8e-4e57-b77d-124efcf2b98d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AdocaoDog/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdocaoDog/src/pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Batatinha/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/src/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emprestimo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impressora/src/Impressora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Impressora/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/AdocaoDogs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/out/production/AdocaoDogs/DogsDogs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/out/production/AdocaoDogs/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/src/DogsDogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdocaoDogs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Batatinha/ExerJogador/ExerJogador.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerPlayer/ExerPlayer.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="29rkRf9eKBOq1ULr9QeCqGgQ3gh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/DH - CTD/Projetos_Java_4_Bim"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7cb32d0-be8e-4e57-b77d-124efcf2b98d" name="Changes" comment="" />
+      <created>1653878586285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653878586285</updated>
+    </task>
+    <servers />
+  </component>
+</project>

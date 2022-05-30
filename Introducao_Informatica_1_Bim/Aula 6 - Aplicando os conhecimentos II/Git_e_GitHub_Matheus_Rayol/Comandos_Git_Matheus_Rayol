@@ -1,0 +1,18 @@
+git init
+inicializa um repositório na pasta atual
+
+git status
+verifica o status dos arquivos presentes no repositório
+
+git add <arquivo>
+inclui arquivos para serem consolidados no repositório. utilizar o caractere "." inclui todos os arquivos da pasta, novos ou alterados. Também é possível especificar explicitamente qual o arquivo a ser adicionado.
+
+git clone <URL>
+clona um repositório remoto localmente em seu dispositivo
+
+git commit
+faz o envio das alterações especificadas no <git add>. Sem opções após o comando, o git abrirá o editor de texto padrão para a inclusão do registro de mudanças a serem submetidas. É possível incluir o registro de mudanças utilizando a opção -m após o comando.
+
+git log
+verifica o histórico de commits do repositório
+

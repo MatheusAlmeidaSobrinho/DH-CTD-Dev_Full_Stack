@@ -1,0 +1,39 @@
+A informática teve seu inicio na história como uma precursora da revolução tecnológica, pois ela surgiu de uma dificuldade ou necessidade dentro da, quando um Francês denominado de Blaise Pascal, desenvolve a primeira máquina de calcular, a primeira calculadora, esta por sua vez foi desenvolvida para realizar cálculos ...
+Informática, do alemão "informatik", do francês "informatique" é formada pela união das palavras informação e automática, e surgiu da nossa necessidade de processar e analisar as informações de forma automática. Apenas após o surgimento dos computadores é que conseguimos atingir esse objetivo, daí a associação direta feita atualmente do termo à tecnologia e computação. A gestão da informação, no entanto, existe desde o momento em que o homem começou a organizá-la, armazená-la e distribuí-la, criando o conceito muito posteriormente.
+Os primeiros instrumentos que o ser humano utilizou para facilitar os cálculos foram, sem dúvida, os dedos das mãos. Essa "ferramenta" era suficiente para a época, pois as operações aritméticas a serem efetuadas eram muito simples.
+
+Com a evolução da sociedade em que vivia, o homem deparou-se com situações que envolviam cálculos cada vez maiores e complexos. Dessa necessidade surge o primeiro instrumento criado especialmente para auxiliar a realização dos cálculos: o Ábaco, que foi utilizado durante 5.000 anos e ainda hoje, vem sendo, com algumas modificações em determinados lugares do mundo, como no Japão, China, União Soviética, entre outros.
+
+Na continuidade das invenções, seguem ainda: em 1642 a Pascaline, máquina de cálculos de Pascal, que era capaz de somar e subtrair por meio de engrenagens mecânicas. Em 1671 a máquina de calcular de Leibnitz, que adicionou à máquina de Pascal os recursos de multiplicação e divisão.  
+
+Outro inventor importante nesse processo de evolução, foi Charles Babbage, que em 1823 projetou a "máquina diferencial" e em 1834 a máquina analítica; embora elas não tenham sido concluídas, inspiraram uma série de equipamentos desenvolvidos anos depois. Por essa colaboração, foi considerado o pai dos computadores.
+
+Em 1847 foi criado o sistema binário pelo matemático inglês George Boole e três décadas depois um norte-americano criou um processo de dados eletromecânico.
+
+Em 1880 Herman Hollerith criou uma máquina para tabular o censo nos EUA. Foi a primeira utilização de cartão perfurado. O sucesso com os resultados obtidos, levou Hollerith a procurar generalizar o uso dela para aplicações comerciais.  Posteriormente seria criada a International Business Machines Corporation, a IBM, conhecida até hoje. 
+
+Em 1906 nasce a eletrônica moderna e ela possibilitou o processamento, a comunicação e o armazenamento de dados, o que antes era pouco viável através do mecanismo eletro-mecânico. Neste ano Lee De Forest, engenheiro americano, inventa a válvula eletrônica.
+
+O primeiro grande computador eletrônico apresentado em 1946, foi o ENIAC. Funcionava com 18.000 válvulas eletrônicas, pesava 30 toneladas e tinha o tamanho de uma sala com 180 m2. Foi projetado durante o curso da segunda grande guerra, com o objetivo de calcular tábuas de bombardeamento e disparo. Foi desenvolvido em 1943 por John Mauchly e J. Presper Eckert, na Universidade da Pensilvânia.
+
+O transistor em 1947, viria causar o verdadeiro salto na eletrônica, substituindo a válvula; uma verdadeira revolução. Deve-se à ele através da miniaturização dos componentes eletrônicos, o surgimento dos primeiros computadores científicos e comerciais. Precisamente em 1964, algumas indústrias americanas se movimentam rumo a produção do circuito integrado (CI), que a grosso modo, é um componente eletrônico com centenas ou milhares de transistores. 
+
+Na década de 60, foi criado o microprocessador, o "cérebro" do microcomputador, que também é chamado de CHIP. Este é uma pastilha de silício, que concentra em si todos os componentes eletrônicos básicos necessários ao funcionamento do computador. Graças ao surgimento do CHIP, aparecem os primeiros microcomputadores.
+
+De 1970 em diante, as evoluções tecnológicas se concentram principalmente na procura de processos mais precisos de miniaturização dos componentes internos dos microcomputadores. Esse processo permitiu a diminuição do peso dos equipamentos e do seu tamanho; o aumento da capacidade de armazenamento; processamento de dados e por fim, a redução consequente do seu custo.
+
+Grande marco na história da informática, em 1975, foi fundada a Microsoft, empresa criada por Bill Gates e Paul Allen que tinha como objetivo a criação de um sistema operacional que pudesse atender a demanda das pessoas comuns e disponibilizar computadores pessoais. Foi nessa época também que Steve Jobs e Steve Wosniack desenvolveram o primeiro computador pessoal da Apple. 
+
+A passos curtos começaram a ser desenvolvidos esses sistemas e também melhores dispositivos aos computadores, até sua popularização.
+
+Em 1981 a IBM lançou o PC 5150. A partir dai estava lançada a “guerra” entre as empresas e foi sempre uma disputa a ver quem fazia melhores descobertas a nível de informática. 
+
+Em 1985 a Microsoft lançou o Windows e o Word 1.0.
+
+Em 1989 Tim Berners-Lee criou a World Wide Web que originou a internet.
+
+Em 1991 é lançado o sistema operacional Linux. 
+
+Dois anos depois a Intel colocou no mercado o processador Pentium e no ano seguinte foi  criado o navegador de internet Netscape Navigator. E as descobertas seguiram, levando mesmo o computador a ganhar propriedades que eram inimagináveis, o que se refletiu, quando em 1997, o campeão mundial de xadrez, Garri Kasparov, perdeu para um computador.
+
+Atualmente diversas empresas dominam o mundo da informática e os avanços são impressionantes. Dos desktops (computadores de mesa) aos notebooks, dos netbooks aos ultrabooks, dos tablets aos smartphones, relógios inteligentes, smart TV’s e etc, a informática acompanhando o ritmo de evolução da tecnologia não para e segue se aprimorando a cada dia.

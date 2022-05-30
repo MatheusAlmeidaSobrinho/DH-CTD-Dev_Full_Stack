@@ -1,0 +1,18 @@
+A interface do usuário (UI) é o conjunto dos controles e canais sensoriais mediante as quais um usuário pode comunicar-se com uma máquina. ... Uma boa interface do usuário caracteriza-se por ter um alto grau de usabilidade e por ser amigável e intuitiva.
+No meio da informática, há alguns tipos de interfaces de utilizador mais comuns:
+
+Interface gráfica do utilizador
+Quando o comando vem de dispositivos como teclado, mouse, tela (touchscreen) e a saída ou resposta é dada no próprio monitor.
+
+Um exemplo disso são os sistemas dos computadores, como o próprio Windows, da Microsoft.Interface de linha de comando
+Executada por meio da digitação de textos que são impressos no monitor.
+
+Ótimo exemplo para essa interface são os prompt de comando dos computadores, como no exemplo abaixo.
+Interface de voz (VUI)
+Funciona por meio do comando de voz e a saída pode acontecer em formato de texto, gráfico ou áudio.
+
+Não há exemplo melhor do que os assistentes virtuais que temos hoje nos celulares, como o próprio Google Assistant, Alexa ou a Siri.
+
+Interface cérebro-computador
+Essa é a interface mais inovadora e vem sendo usada para controlar próteses biônicas e transmitir comandos à softwares por meio de ondas cerebrais.
+

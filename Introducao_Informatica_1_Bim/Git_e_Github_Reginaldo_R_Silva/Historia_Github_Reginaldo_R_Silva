@@ -1,0 +1,13 @@
+1) Quem inventou o sistema de controle de versão Git e por quê?
+2) Quem atualmente é o dono do GitHub e por quê?
+3)Existe outra maneira além do terminal, de trabalhar com o Github?
+
+1) Linus Torvalds,  Linus Torvalds criou o Git por conta própria porque
+nenhum dos outros sistemas de controle de versão atendia suas necessidades.
+
+2) Microsoft, que já era a companhia privada que mais colaborava com o GitHub
+a compra foi essencial para concentrar seus esforços nas quatro principais frentes 
+que Nadella considera cruciais: Nuvem, IA, Serviços (incluso Windows, Office e Xbox) 
+e mercado corporativo.
+
+3) Sim, existem, aplicações externas e ide's com extensão.

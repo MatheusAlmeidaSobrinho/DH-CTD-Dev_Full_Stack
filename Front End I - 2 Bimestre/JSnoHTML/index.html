@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usando JS no HTML</title>
+  </head>
+  <body>
+    <h1>OLA MUNDO</h1>
+    <p>maldição removida!</p>
+    <script>
+      // EXEMPLO usando confirm / prompt / alert com uma variavel
+      window.confirm('bora ver essa obra prima?')
+      var nome = window.prompt('deixa seu nome ai ;D')
+      window.alert('Esse é um site para testar JS ' + nome + '!!!')
+    </script>
+
+    <script>
+      // EXEMPLO usando conversão para numeros + soma
+      var n1 = Number.parseFloat(window.prompt('digite um numero: ')) // window transforma em string o elemento
+      var n2 = Number.parseFloat(window.prompt('digite outro numero: '))
+      var soma = n1 + n2 // ele entende como concatenação ate por o parse por causa do window
+      window.alert('A soma dos numeros é: ' + soma + '!!!')
+      //(da pra usar somente Number(window.prompt('digite um numero: ')) o parse é pra conversão)
+    </script>
+
+    <script>
+      // EXEMPLO usando conversão para string
+      var n1 = String.parseFloat(window.prompt('digite um numero: ')) // window transforma em string o elemento
+      var n2 = Number(window.prompt('digite outro numero: ').toString)
+      var soma = n1 + n2 // ele entende como concatenação ate por o parse por causa do window
+      window.alert('A soma dos numeros é: ' + soma + '!!!')
+      //(da pra usar somente Number(window.prompt('digite um numero: ')) o parse é pra conversão)
+    </script>
+
+    <script>
+      // Exemplo usando length + ${} USANDO CRASE ``
+      var nome = window.prompt('Qual é o seu nome?')
+      document.write(`Olá ${nome}! Seu nome tem ${nome.length} letras.`)
+    </script>
+  </body>
+</html>

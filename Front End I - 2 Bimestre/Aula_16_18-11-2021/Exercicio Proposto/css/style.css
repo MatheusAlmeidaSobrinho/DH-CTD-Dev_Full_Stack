@@ -1,0 +1,28 @@
+.hover:hover {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(138, 138, 141, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+.first-letter::first-letter {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(144, 144, 148, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+.focus:focus {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(144, 144, 148, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+.checked:checked {
+  color: #000000;
+  margin: 20px;
+}

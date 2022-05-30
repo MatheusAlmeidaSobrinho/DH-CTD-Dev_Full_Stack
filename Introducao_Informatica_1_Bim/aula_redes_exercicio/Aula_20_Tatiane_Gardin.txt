@@ -1,0 +1,15 @@
+   
+   Endereço IPv4(Privado): 10.210.210.41
+   
+   Máscara de Sub-rede .: 255.255.255.0
+   
+   Endereço Físico  : 44-37-E6-91-F1-D0 (MAC) 
+   
+  Meu IP publico é 187.75.59.189
+  
+  Marca placa de rede :  Hon Hai Precision Ind. Co.,Ltd. 
+  
+  Meu IP plublico classe B porque a classe B inicia com o valor de 128 - 191 no primeiro octeto 
+  
+  meu IP Privado  tem uma rede classe A com minha subrede classe C. Porque a classe da rede A inicia-se  em 0 - 127 com máscra 255.255.255.0 /24
+  

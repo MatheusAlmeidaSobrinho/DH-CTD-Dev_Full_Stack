@@ -1,0 +1,6 @@
+git clone = Comando para clonar o repositorio do github para o nosso computador, com este comando você passa a ter todo o repositorios e arquivos do github em sua maquina.
+git init = cria um repositorio git no proprio computador, podendo assim encaminhar os arquivos e repositorio para o github
+touch = Comando pra criar um Arquivo. 
+mkdir = comando para criar um diretório (pasta)
+cd = comando para direcionar você a um diretorio (Entrar em uma pasta)
+cd ../ = volta na pasta anterior

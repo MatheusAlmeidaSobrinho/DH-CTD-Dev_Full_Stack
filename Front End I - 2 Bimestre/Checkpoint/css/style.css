@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&display=swap');
+
+body {
+  background-image: url(../images/background_site.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+header {
+  display: inline-flex;
+  width: 100%;
+}
+
+.imgHeader {
+  width: 65px;
+  height: 65px;
+  border-top: 3px solid rgb(41, 41, 40);
+  border-bottom: 3px solid rgb(114, 114, 114);
+  background-color: rgba(26, 26, 27, 0.726);
+  padding-left: 10px;
+}
+
+.tituloHeader {
+  font-size: 38px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid rgb(41, 41, 40);
+  border-bottom: 3px solid rgb(114, 114, 114);
+  background-color: rgba(26, 26, 27, 0.726);
+}
+
+main {
+  justify-content: center;
+}
+
+.dMain {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(73, 73, 77, 0.726);
+  position: relative;
+  border-top: 3px solid rgb(41, 41, 40);
+  border-bottom: 3px solid rgb(114, 114, 114);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.pMain {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 6px;
+}
+
+.videoMain {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border-top: 8px solid #a6a8a8;
+  border-left: 8px solid #717272;
+  border-right: 8px solid #454546;
+  border-bottom: 8px solid #202020;
+  border-radius: 20px;
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 15px;
+  background-color: rgba(73, 73, 77, 0.726);
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 30%;
+}
+
+.p2Main {
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: rgba(73, 73, 77, 0.726);
+}
+
+.pCuriosidades {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  width: 23%;
+  height: 100%;
+  margin: 1%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+  background-color: rgba(26, 26, 27, 0.726);
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.redesSociais {
+  display: inline-flex;
+  align-items: center;
+}
+
+.imgFooter {
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+}
+
+.sobreSite {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.pCuriosidades:hover {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(49, 49, 51, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+.p2Main:hover {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(60, 60, 61, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+h2:hover {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(49, 49, 51, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+.dMain:hover {
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgba(49, 49, 51, 0.726);
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
+}
+
+button {
+  text-decoration: none;
+  opacity: 0.9;
+  letter-spacing: 0.6px;
+  font-size: 16.1px;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #b0b1b3, #1a1b1f);
+  border: solid #777879 2px;
+  border-radius: 99px;
+  padding: 6px;
+  text-shadow: 0px 1px 2px #000000;
+  box-shadow: 0px 1px 5px #0d2444;
+  transition: all 0.15s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  opacity: 1;
+  border-radius: 99px;
+  background-color: rgba(128, 128, 133, 0.726);
+  text-shadow: 0px 1px 2px #a7a5a5;
+  box-shadow: 0px 1px 2px #8b8a8a;
+}
+
+.imgFooter:hover {
+  opacity: 1;
+  border-radius: 99px;
+  border: 2px solid #a9aaac;
+  background-color: rgba(253, 253, 255, 0.726);
+  text-shadow: 0px 1px 2px rgba(253, 253, 255, 0.726);
+  box-shadow: 0px 1px 2px rgba(253, 253, 255, 0.726);
+}

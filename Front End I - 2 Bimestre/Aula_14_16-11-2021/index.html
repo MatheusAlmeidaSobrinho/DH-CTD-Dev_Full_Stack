@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Loja de Doces</title>
+  </head>
+  <body>
+    <form action="/caminhoQueEleIria" id="form1">
+      <fieldset form="form1" id="dadoscadastrais">
+        <legend>DADOS CADASTRAIS</legend>
+        <div class="cadNome">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Insira seu nome aqui ^^"
+          />
+        </div>
+        <div class="cadEmail">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Insira seu email aqui ^^"
+          />
+        </div>
+        <div class="selSexo">
+          <label for="sexo">Sexo:</label>
+          <select type="select" name="sexo" id="sexo">
+            <option>Selecione uma Opção</option>
+            <option value="11">Feminino</option>
+            <option value="21">Masculino</option>
+            <option value="31">LGBT+</option>
+            <option value="41">Prefiro não informar</option>
+          </select>
+        </div>
+        <div class="cadCPF">
+          <label for="cpf">Cpf:</label>
+          <input
+            type="number"
+            name="cpf"
+            id="cpf"
+            placeholder="Opção não obrigatoria!"
+          />
+        </div>
+        <div class="cadTel">
+          <label for="ddd" id="texttelefone">Telefone:</label>
+          <select type="number" name="ddd" id="ddd">
+            <option>DDD</option>
+            <option value="12">(11)</option>
+            <option value="22">(12)</option>
+            <option value="32">(13)</option>
+            <option value="42">(14)</option>
+            <option value="52">(15)</option>
+            <option value="62">(16)</option>
+            <option value="72">(17)</option>
+            <option value="82">(18)</option>
+            <option value="92">(19)</option>
+          </select>
+          <input type="number" name="telefone" id="telefone" />
+        </div>
+        <div class="cadDataNasc">
+          <label for="dataNasc">Data Nascimento:</label>
+          <input type="date" name="dataNasc" id="dataNasc" placeholder="" />
+        </div>
+      </fieldset>
+
+      <form action="/caminhoQueEleIria" id="form2">
+        <fieldset form="form2" id="dadosendereco">
+          <legend>DADOS ENDEREÇO</legend>
+          <div class="cadRua">
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua" id="rua" />
+            <label for="numerocasa">Nº:</label>
+            <input type="text" name="numerocasa" id="numerocasa" />
+          </div>
+          <div class="cadBairro">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro" />
+          </div>
+          <div class="cadCidade">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" />
+          </div>
+          <div class="cadEstado">
+            <label for="estado">Estado:</label>
+            <select type="number" name="estado" id="estado">
+              <option></option>
+              <option value="est1">AC</option>
+              <option value="est2">AL</option>
+              <option value="est3">AP</option>
+              <option value="est4">AM</option>
+              <option value="est5">BA</option>
+              <option value="est6">CE</option>
+              <option value="est7">DF</option>
+              <option value="est8">ES</option>
+              <option value="est9">GO</option>
+              <option value="est10">MA</option>
+              <option value="est11">MT</option>
+              <option value="est12">MS</option>
+              <option value="est13">MG</option>
+              <option value="est14">PA</option>
+              <option value="est15">PB</option>
+              <option value="est16">PR</option>
+              <option value="est17">PE</option>
+              <option value="est18">PI</option>
+              <option value="est19">RJ</option>
+              <option value="est20">RN</option>
+              <option value="est21">RS</option>
+              <option value="est22">RO</option>
+              <option value="est23">RR</option>
+              <option value="est24">SC</option>
+              <option value="est25">SP</option>
+              <option value="est26">SE</option>
+              <option value="est27">TO</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset id="doces">
+          <legend class="sabores">ESCOLHA SEUS DELICIOSOS DOCES</legend>
+          <div class="linhassabores">
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Maria Mole</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Cupcakes</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Brownie</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Paçoca</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Compota</label
+            >
+          </div>
+          <div class="linhassabores">
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Pudim</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Doce Quindim</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Pé de Moleque</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Brigadeiro</label
+            >
+          </div>
+          <div class="linhassabores">
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Pamonha de Doce</label
+            >
+
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Manjar Turco</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Geléia de Mocotó</label
+            >
+            <input type="checkbox" name="tiposdoces" id="tiposdoces" /><label
+              for="tiposdoces"
+              id="tiposdoces"
+              >Muxá</label
+            >
+          </div>
+        </fieldset>
+        <fieldset id="pagamentos">
+          <legend class="pagamentos">FORMAS PAGAMENTO</legend>
+          <input type="radio" name="formaspagamento" id="pagviapix" /><label
+            for="pagviapix"
+            class="forpag"
+            >Pix</label
+          >
+          <input type="radio" name="formaspagamento" id="pagviacartao" /><label
+            for="pagviacartao"
+            class="forpag"
+            >Cartão</label
+          >
+          <input type="radio" name="formaspagamento" id="pagviaboleto" /><label
+            for="pagviaboleto"
+            class="forpag"
+            >Boleto</label
+          >
+          <input:not([type
+            ="radio"
+            ])
+            name="formaspagamento"
+            id="pagviatrans"
+          /><label for="pagviatrans" class="forpag">Transferencia</label>
+        </fieldset>
+        <fieldset id="sugestoes">
+          <div class="textarea">
+            <label for="areaSugestao"
+              ><p id="pDaSugestao">
+                Sua opnião é importante para nos e por isso gostariamos que você
+                informe suas Sugestões:
+              </p></label
+            >
+            <textarea
+              name="areaSugestao"
+              id="areaSugestao"
+              cols="90"
+              rows="5"
+              placeholder="insira algum doce que você gostaria ou oque você achou de nós ^^"
+            ></textarea>
+          </div>
+        </fieldset>
+        <div class="buttons">
+          <button type="reset" class="botoesfinal">Limpar</button>
+          <button type="submit" class="botoesfinal">Enviar</button>
+        </div>
+      </form>
+    </form>
+  </body>
+</html>

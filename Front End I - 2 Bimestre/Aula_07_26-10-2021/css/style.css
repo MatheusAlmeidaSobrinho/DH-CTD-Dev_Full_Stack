@@ -1,0 +1,48 @@
+* {
+  color: rgba(22, 33, 54, 0.89);
+}
+
+body {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgba(24, 99, 99, 0.74);
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.job-title {
+  color: rgba(54, 5, 54, 0.829);
+  background-color: rgba(235, 45, 178, 0.534);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#high {
+  color: rgb(32, 153, 137);
+}
+
+ul {
+  background-color: rgb(54, 53, 53);
+  color: bisque;
+}
+
+.nav-footer {
+  color: rgb(55, 182, 214);
+}
+
+a {
+  color: rgb(196, 224, 255);
+  margin-left: 5px;
+}
+
+#telefone {
+  color: rgb(55, 182, 214);
+  margin-left: 5px;
+}

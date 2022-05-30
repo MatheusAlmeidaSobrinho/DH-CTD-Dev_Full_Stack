@@ -1,0 +1,92 @@
+Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.
+
+O termo servidor também define um recurso dentro de um sistema computacional maior, capaz de processar aplicações, prestar serviços e armazenar dados. Esses sistemas podem ser físicos ou virtuais, estarem instalados local ou remotamente, geralmente são escaláveis e possuem alto poder de processamento.
+
+Capazes de executar um conjunto específico de programas ou protocolos para fornecer serviços para outras máquinas ou clientes, servidores são equipamentos dedicados a executar aplicações e serviços dentro de uma rede LAN ou WAN.
+
+Arquitetura cliente-servidor
+Dentro de uma infraestrutura de TI, um servidor e seus clientes (computadores, tablets e outros dispositivos) formam uma arquitetura conhecida como “cliente-servidor”, que fornece sistemas de roteamento e acesso centralizado de informações, recursos e dados armazenados dentro de uma rede.
+
+Como definição rudimentar, podemos considerar um servidor como qualquer solução tecnológica com capacidade para executar programas de forma centralizada, além de armazenar e compartilhar arquivos, administrar filas de impressão e prestar algum tipo de serviço para vários computadores, através de uma rede local ou remota.
+
+Servidores para redes locais
+Apresentados fisicamente em gabinetes para rack 19”, blade ou torre, esses servidores de rede também são conhecidos como “servidores dedicados”, pois utilizam basicamente softwares para gerenciar e prestar serviços dentro de redes locais corporativas.
+Esses equipamentos geralmente são os responsáveis por atender as requisições dos computadores clientes da rede local. Um servidor local tem como função centralizar as aplicações corporativas de TI dentro das organizações, como executar softwares administrativos e banco de dados.
+
+Para isso, qualquer servidor precisa executar um sistema operacional, que é o software responsável pelo gerenciamento de todo o hardware e pela execução dos softwares administrativos instalados no sistema.
+
+Dentre esses principais sistemas operacionais estão distribuições Linux como Red Hat e diversas versões do Windows Server da Microsoft.
+
+Além disso, esses sistemas permitem, dentre outras coisas, executar aplicativos corporativos como banco de dados, backup, virtualização ou controlar o acesso às informações através da criação de contas e senhas, inclusive atribuindo privilégios para grupos específicos de usuários.
+Servidores de serviços via internet
+Com hardware similar aos servidores de dados das redes LAN, os computadores que prestam serviços via internet geralmente são instalados em infraestruturas de TI como datacenters e prestam serviços como a hospedagem de sites, distribuição de emails e outros serviços como a propagação de conteúdo como áudio e vídeo.
+
+Como cada aplicação possui um nível de exigência em termos de disponibilidade, performance e segurança, o hardware e software que compõe cada servidor também é definido de acordo com cada projeto.
+
+Grandes data centers comercializam servidores como serviços, alugando servidores virtuais com recursos de processamento, armazenamento e comunicação para prestar serviços através de redes de comunicação como a internet.
+
+É comum encontrarmos instalações profissionais com diversos servidores redundantes, funcionando agrupados com outros equipamentos (em cluster) e com uma série de recursos sofisticados para manter funcionamento ininterrupto.
+O conjunto de componentes internos (hardware) que compõem cada servidor difere de acordo o poder de processamento, da respectiva capacidade de armazenamento, comunicação, do nível de segurança e da proteção do sistema contra desastres.
+
+Além disso, sistemas corporativos fornecem maior possibilidade de gerenciamento e expansão, redundância de hardware e sistemas operacionais mais sofisticados.
+
+Assim como o hardware, o software básico é o conjunto de aplicativos que gerenciará o sistema também deve ser definido de acordo com cada aplicação.
+
+Ao dimensionar corretamente a demanda que será atendida, o poder de processamento necessário, o número de usuários que acessarão o servidor bem como a possibilidade de futuros upgrades no sistema, o administrador de TI terá bons indicativos para uma escolha racional do melhor equipamento para sua necessidade.
+
+Tipos de servidores
+Qualificar servidores por tipo nada mais é do que categorizar racionalmente o conjunto de hardware e software por aplicação que o sistema executará com mais frequência.
+
+Os equipamentos são s
+
+Necessidades comuns quanto backup empresarial, montar um servidor de arquivos ou  de aplicação são comuns para milhares de usuários. Grandes fabricantes como Asus, Dell, HP, Lenovo e Supermicro produzem e entregam equipamentos já customizados para esse fim.
+
+Alguns tipos de servidores de rede mais conhecidos:
+
+Servidor de aplicação ou application server
+Utilizados para executar aplicações corporativas e atender diversas estações de trabalho de forma simultânea, os servidores de aplicação geralmente necessitam de seu poder de processamento para executar programas para que não possam ser executados apenas numa estação de trabalho.
+
+Assim, vários usuários ganhariam uma ou mais aplicações corporativas sendo executadas em servidores sem prejudicar seu processamento local, mantendo as respectivas bases de dados sempre centralizadas, atualizadas e armazenadas em storages.
+
+Servidor de Arquivos
+Servidores de arquivos são sistemas para armazenar e compartilhar uma grande quantidade de informações entre equipamentos e usuários, mantendo o gerenciamento centralizado.
+
+A rigor, qualquer computador pode ser configurado como um file server, porém equipamentos para esse fim como storages NAS cumprem muito melhor essa função.
+Servidor de banco de dados
+Alguns equipamentos são configurados para potencializar e dar eficiência, de forma dedicada, ao processamento e a transferência de dados entre os demais sistemas computacionais da infraestrutura de TI, como alguns servidores de aplicação e storages.
+
+Esses computadores também são conhecidos como servidores de banco de dados, e normalmente proporcionam um ambiente com desempenho apropriado para instalar e processar bases de dados que recebem um grande número de requisições.
+
+Servidor de mídia
+Também conhecido como media servers, esses equipamentos podem transmitir conteúdo de áudio ou vídeo via internet, através de um processo conhecido como streaming. Netflix, Amazon Prime, Youtube e outras empresas de conteúdo são exemplos de hard users desse tipo de tecnologia.
+
+Graças ao protocolo DLNA, sistemas de armazenamento domésticos também podem ser considerados servidores de mídia, pois podem centralizar e compartilhar conteúdo através de redes locais com outros equipamentos como TVs e sistemas de áudio.
+
+Servidor de email
+Servidores de email são equipamentos configurados para armazenar e transferir e-mails através de redes locais ou via internet.
+Servidor de backup
+Servidor de backup é um tipo de equipamento que combina as tecnologias de hardware e software para possibilitar a cópia segura e fornecer serviços para a recuperação de dados de outros dispositivos computacionais.
+
+Também conhecido como backup server, um servidor de backup fornece a capacidade de armazenamento e canais de comunicação necessários para fazer, manter e gerenciar a cópia de arquivos, aplicativos e/ou bancos de dados de outros sistemas dentro da infraestrutura de TI.
+
+Servidor FTP
+Servidor que, através de uma rede TCP/IP, permite download e upload de arquivos via conexão com protocolo FTP (File Transfer Protocol).
+
+Muito usado em ambiente cloud, esse tipo de servidor é voltado para armazenamento e troca de arquivos, permitindo o controle das transferências realizadas e autenticação por login e senha, proporcionando um ambiente seguro para troca de informações entre computadores.
+
+Servidor Proxy
+Atuando como mediador entre as requisições dos computadores clientes que buscam recursos de outros servidores, como arquivos, páginas web e outros serviços, o servidor proxy filtra as solicitações e determina como as mesmas devem ser manejadas.
+
+Esse servidor é, por exemplo, intermediário entre um acesso feito por uma estação de trabalho a um servidor web, verificando se existe algum acesso recente gravado (cache), filtrando e gerenciando assim cada requisição, melhorando assim o desempenho e a segurança do sistema.
+
+Servidor Web
+Como diz o nome, esse é um tipo de servidor que fornece serviços para executar aplicações e disponibilizar conteúdo via internet (nuvem).
+
+Um servidor web pode ser acessado através de programas navegadores como Internet Explorer, Google Chrome ou Safari, via protocolo Hypertext Transfer Protocol.
+
+A maioria dos servidores web utilizam sistemas robustos como o Apache, baseados em Linux e de distribuição gratuita, principalmente pela segurança e grande quantidade de ferramentas disponíveis para criação, gerenciamento e publicação de sites.
+
+Outros tipos de servidores
+Como explicado, um servidor pode ser qualquer sistema computacional, físico ou virtual, composto por hardware e software, dedicado a atender solicitações e prestar serviços para outros dispositivos como computadores clientes.
+
+Por isso, além dos já mencionados, podemos ainda citar outros tipos de servidores como servidores NAS, servidores dns, telnet e de impressão além de outros já em desuso como servidores chat, de fax, etc.

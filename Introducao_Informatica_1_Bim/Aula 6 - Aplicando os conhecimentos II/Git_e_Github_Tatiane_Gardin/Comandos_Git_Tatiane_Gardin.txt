@@ -1,0 +1,13 @@
+git inint - criar um repositorio 
+git config --global user.name "Nome"- agregar seu nome ao repositorio 
+git confir global--user.email "Email" - agregar o seu email ao repositorio
+git remote add origin - aponta um repositorio remoto
+git add . - adiciona todos os arquivos 
+git status - mostra o status dos arquivos 
+git add "app.js" - adiciona o arquivo ao repositorio 
+git commit -M "adicionado arq app.js" adiciona regsistros de alterações feito dentro do repositorio 
+git push - subir arquivo para nuvem 
+git clone URL - cria uma copia local de um repositoio remoto 
+git pull - atualizar os arquivos do repositorio com as alterações feitas pelo seus colegas 
+git branch - criar uma branch
+git checkout - mudar de branch 

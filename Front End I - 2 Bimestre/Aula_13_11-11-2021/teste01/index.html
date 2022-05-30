@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Toma esse Formulario !!!</h1>
+
+    <form action="../Aula_13_11-11-2021/registro/text.text" method="post">
+      <ul>
+        <li>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" /><br />
+        </li>
+        <li>
+          <label for="senha">Senha:</label>
+          <input type="password" name="senha" id="senha" />
+        </li>
+      </ul>
+    </form>
+    <form action="../Aula_13_11-11-2021/registro/text.text" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" /><br />
+      <label for="sobrenome">Sobrenome:</label>
+      <input type="text" name="sobrenome" id="sobrenome" /><br /><br />
+
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="idade" /><br />
+
+      <label for="idade">Idade:</label>
+      <select name="subject" id="subject">
+        <option value="-1" hidden="">Selecione sua Idade</option>
+        <option value="0">0 - 10</option>
+        <option value="1">11 - 20</option>
+        <option value="2">21 - 30</option>
+        <option value="3">31 - 40</option>
+        <option value="4">Acima de 40</option>
+      </select>
+    </form>
+    <form action="../Aula_13_11-11-2021/outrapasta" method="post">
+      <label for="comentario">Deixe seu comentario:</label>
+      <textarea name="comentario" id="comentario"></textarea><br />
+    </form>
+
+    <label>PESQUISAR:</label>
+    <select name="subject" id="subject">
+      <option value="0" disabled="" hidden="">Selecione uma Opção</option>
+      <option value="1">Banco de Dados</option>
+      <option value="2">Front End I</option>
+      <option value="3">Introdução Informatica</option>
+      <option value="4">Learning Agility</option>
+      <option value="5">Metodologias Ageis</option>
+      <option value="6">Programação Imperativa</option>
+    </select>
+
+    <form action="/colors" method="GET">
+      <label>Escolha uma Cor:</label>
+      <select name="color">
+        <option value="#ff0000">Vermelho</option>
+        <option value="#00ff00">Verde</option>
+        <option value="#0000ff">Azul</option>
+        <option value="#770077">Roxo</option>
+        <option value="#ff0000" selected>Vermelho</option>
+        <option value="##f1f1f1">Branco</option>
+      </select>
+    </form>
+    <p>Permite criar um botão. Com a propriedade type, definimos o seu tipo.</p>
+      <p> ● Um botão de tipo reset reinicia o formulário a seu estado inicial.</p>
+        <p> ● Um botão de tipo submit tem a função de enviar os dados do formulário.</p>
+          <p>● Um botão de tipo button não realiza nenhuma ação, porém, podemos configurá-lo no JavaScript.</p>
+    TAG <button>
+
+      <form action="" method="GET">
+       <label for="usuario">Ingressa o usuario:</label>
+       <input type="text" name="usuario">
+       <button type="reset">Cancelar</button>
+       <button type="submit">Enviar</button>
+       <button type="button">Botao</button>
+      </form>
+      <br />
+      <form action="/login" method="POST">
+        <p>
+        <label>Nome:</label>
+        <input type="text" name="usuario">
+        </p>
+        <p>
+        <label>Email:</label>
+        <input type="email" name="email">
+        </p>
+        <p>
+        <button type="submit">Enviar</button>
+        </p>
+       </form>
+  </body>
+</html>

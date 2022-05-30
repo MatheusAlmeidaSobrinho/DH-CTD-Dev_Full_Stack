@@ -1,0 +1,12 @@
+**a. Quem inventou o sistema de controle de versão Git e por quê?**
+  
+  **R:** O Git foi criado por Linus Torvalds em 1991. O principal motivo para sua criação foi o fato de que Torvalds e sua equipe precisavam de um novo sistema de controle de versão para controlar as alterações do projeto Linux, tendo em vista que o software que era utilizado anteriormente (BitKeeper) mudou a licença de utilização. 
+
+**b. Quem atualmente é o dono do Github e por quê?**
+
+  **R:** O Github foi adquirido pela Microsoft em 2018 por US$ 7,5 bilhões e, desde então, a empresa detém os direitos sobre a plataforma. A compra do Github significou, para a Microsoft, uma mudança em relação a sua postura anterior, que era a de uma empresa proprietária de software. Com o Github, a Microsoft passou a ter a maior plataforma de hospedagem de código-fonte do mundo, possibilitando maior apoio à causa *open-source*.
+
+**c. Existe outra maneira, além do terminal, de trabalhar com o Github?**
+
+  **R:** Sim. A forma mais comum de acessar e trabalhar com o Github é pela web, criando repositórios remotos e clonando-os com o Git por meio do terminal. Também é possível utilizar o Github Desktop, que, como o nome diz, é um software de desktop para o Github. 
+  

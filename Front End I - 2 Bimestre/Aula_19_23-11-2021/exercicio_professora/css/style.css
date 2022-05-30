@@ -1,0 +1,15 @@
+body {
+  background-color: bisque;
+}
+
+.containerCard {
+  margin: 20px;
+}
+
+.itemCard {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 1%;
+  width: 30%;
+  padding: 10px;
+}

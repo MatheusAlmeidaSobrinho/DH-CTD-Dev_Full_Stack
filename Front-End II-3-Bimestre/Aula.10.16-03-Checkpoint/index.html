@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/outline_graphic_eq_black_24dp.png"
+      type="image/x-icon"
+    />
+    <title>dh.fm</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="material-icons-outlined md-36">graphic_eq</span>
+        <h1>dh.fm</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#" title="Explorar" rel="noopener noreferrer" disable
+              ><span class="material-icons-outlined md-24">person_search</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Notificações" rel="noopener noreferrer"
+              ><span class="material-icons-outlined md-24">notifications </span>
+            </a>
+          </li>
+          <li>
+            <div class="container" title="Modo escuro">
+              <input type="checkbox" class="check_box" name="btn" id="btn" />
+              <label for="btn"></label>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="aside">
+      <form action="" id="form">
+        <fieldset>
+          <div class="funcionamento">
+            <p>
+              Compartilhe com as pessoas que você ama seu gosto musical!<br />
+              Insira uma imagem da sua banda escolhida, o nome e se quiser o
+              album favorito, e oque voce gosta nela ^^
+            </p>
+          </div>
+          <div class="formImagem">
+            <label for="imagem"
+              ><span class="material-icons-outlined md-24">image</span></label
+            >
+            <input
+              type="text"
+              name="imagem"
+              id="campoImagem"
+              placeholder=" URL de imagem"
+              required
+            />
+          </div>
+
+          <div class="formTitulo">
+            <label for="titulo"
+              ><span class="material-icons-outlined md-24">person</span></label
+            >
+            <input
+              type="text"
+              name="titulo"
+              id="campoTitulo"
+              placeholder=" Nome do artista/banda"
+              required
+            />
+          </div>
+
+          <div class="formAlbum">
+            <label for="album"
+              ><span class="material-icons-outlined md-24">album</span></label
+            >
+            <input
+              type="text"
+              name="album"
+              id="campoAlbum"
+              placeholder=" Melhor álbum"
+              required
+            />
+          </div>
+
+          <div class="textAreaDescricao">
+            <label for="areaDescricao"
+              ><span class="material-icons-outlined md-24"
+                >edit_note</span
+              ></label
+            >
+            <textarea
+              name="areaDescricao"
+              id="textArea"
+              cols="30"
+              rows="5"
+              placeholder="Conte um pouco sobre o  motivo que esse artista ou banda é um dos seus favoritos..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="botoes">
+            <button type="reset" class="botoesFinal" id="botaoReset">
+              <p>LIMPAR</p>
+            </button>
+
+            <button type="submit" class="botoesFinal" id="botaoSubmit">
+              <p>SALVAR</p>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </aside>
+
+    <main class="main" id="containerItens"></main>
+
+    <footer class="footer">
+      <div class="alunos">
+        <p>Felipe Arruda</p>
+        <p>Matheus de Almeida</p>
+        <p>Marcelo Pacholak</p>
+      </div>
+    </footer>
+    <script src="scripts/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+Felipe Sette 
+
+Endereço IP Público: 189.46.109.6 
+
+Endereço IP privado e sua máscara de rede: 192.168.15.13 | 255.255.255.0 
+
+Endereço MAC: 00-25-22-92-B2-98 
+
+Os IPs público e privado pertencem à qual classe de rede? 
+Meu IP público pertence a classe B 
+Meu IP privado pertence a classe C 
+
+Que informações podemos obter do nosso endereço MAC? Marca de nossa placa de rede. 
+ASRock Incorporation 
+
+ 

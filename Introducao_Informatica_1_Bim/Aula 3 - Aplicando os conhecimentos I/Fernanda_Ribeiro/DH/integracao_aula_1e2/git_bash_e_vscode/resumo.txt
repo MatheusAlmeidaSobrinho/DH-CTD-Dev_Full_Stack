@@ -1,0 +1,28 @@
+O Git Bash é o aplicativo para ambientes do Microsoft Windows que oferece a camada de emulação para a experiência de linha de comando Git.
+Git Bash
+O Git é o conjunto de programas de utilitários de linha de comando projetado para ser executado em ambientes de linha de comando no estilo Unix. Sistemas operacionais modernos, como o Linux e o macOS, incluem terminais integrados de linha de comando Unix. Então, o Linux e o macOS são sistemas operacionais complementares ao trabalhar com Git. Por outro lado, o Microsoft Windows usa o prompt de comando do Windows, ambiente de terminal que não é do Unix.
+
+Em ambientes do Windows, é comum que o Git seja empacotado como parte de aplicativos de GUI de nível superior. As GUIs para o Git podem tentar resumir e esconder os primitivos do sistema de controle de versão. Assim, podem ajudar iniciantes em Git a contribuir para projetos com rapidez. Quando os requisitos de colaboração do projeto crescerem junto a outros membros da equipe, é essencial estar ciente de como os métodos brutos do Git funcionam. É aí que pode ser bom fazer a conexão à versão GUI das ferramentas da linha de comando. O Git Bash é oferecido para proporcionar a experiência Git terminal.
+
+O que é o Git Bash?
+O Git Bash é o aplicativo para ambientes do Microsoft Windows que oferece a camada de emulação para a experiência de linha de comando Git. Bash é acrônico para "Bourne Again Shell". Shells são aplicativos terminais usados como interface em sistemas operacionais por meio de comandos gravados. O Shell é o padrão popular no Linux e no macOS. O Git Bash é o pacote que instala o Bash, alguns utilitários de bash comuns e o Git nos sistemas operacionais Windows.
+
+Como instalar Git Bash
+O Git Bash é incluído como parte do pacote Git para Windows. Baixe e instale o Git para Windows como todos os outros aplicativos. Após baixar, procure e abra o arquivo .exe para executar o Git Bash.
+
+Como usar o Git Bash
+O Git Bash tem as mesmas operações da experiência Bash padrão. É útil rever o uso básico do Bash. O uso avançado do Bash está fora do escopo desse documento focado em Git.
+
+Como navegar pelas pastas
+O comando do Bash pwd é usado para exibir o "diretório de trabalho atual". O pwd é equivalente ao executar o cd em terminais DOS (host do console do Windows). Essa é a pasta ou o caminho no qual está a sessão de Bash atual.
+
+O comando do Bash ls é usado para listar o conteúdo do diretório de trabalho atual. O ls é equivalente ao DIR em terminais de host do console do Windows.
+
+O Bash e o host do console do Windows têm o comando cd. cd é acrônimo para "Change Directory". O cd é chamado junto com o nome do diretório. Executar o cd muda as sessões dos terminais atuais que trabalham no diretório para o argumento de diretório passado.
+
+
+Guia
+Instale o Git/Git Bash em seu Windows;
+Abra o vscode e clique em: File > Preferences > Settings;
+Na aba “User Settings”, selecione: “Features” e depois “Terminal”;
+Procure a seção: “Integrated > Shell: Windows” e coloque o caminho para o executável do seu git bash, conforme imagem abaixo:

@@ -1,0 +1,43 @@
+body {
+  width: 2000px;
+  height: 2000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 150px;
+  width: 150px;
+  padding: 40px;
+  background-color: rgba(204, 103, 103, 0.945);
+  font-size: 70px;
+  text-align: center;
+  border: 10px solid #000000;
+}
+
+.pai {
+  border: 20px solid #cfb049;
+
+  padding: 30px;
+}
+
+#caixa1 {
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+#caixa2 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+
+#caixa3 {
+  position: fixed;
+  top: 00px;
+  left: 500px;
+}

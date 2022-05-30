@@ -1,0 +1,60 @@
+body {
+  width: 99%;
+  height: 2000px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+.pai {
+  border: 6px solid #0bb9b1;
+}
+.filho {
+  box-sizing: border-box;
+  height: 150px;
+  width: 150px;
+  padding: 40px;
+  background-color: rgba(196, 157, 51, 0.945);
+  font-size: 20px;
+  text-align: center;
+  border: 10px solid #0bb9b1;
+  position: relative;
+}
+
+#filho1 {
+  border: 5px solid #c2139c;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: -1px;
+}
+
+#filho2 {
+  border: 5px solid #c2139c;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  left: 44%;
+}
+#filho3 {
+  border: 5px solid #c2139c;
+  position: absolute;
+  top: 86px;
+  right: 13px;
+  z-index: 1;
+}
+
+.neto1 {
+  border: 5px solid #000000;
+  text-align: center;
+}
+
+.neto2 {
+  border: 5px solid #000000;
+  text-align: center;
+}
+.neto3 {
+  border: 5px solid #000000;
+  text-align: center;
+}

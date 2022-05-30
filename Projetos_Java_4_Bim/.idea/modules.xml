@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdocaoDog/AdocaoDog.iml" filepath="$PROJECT_DIR$/AdocaoDog/AdocaoDog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Batatinha/Batatinha.iml" filepath="$PROJECT_DIR$/Batatinha/Batatinha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Emprestimo/Emprestimo.iml" filepath="$PROJECT_DIR$/Emprestimo/Emprestimo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Batatinha/ExerJogador/ExerJogador.iml" filepath="$PROJECT_DIR$/Batatinha/ExerJogador/ExerJogador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExerPlayer/ExerPlayer.iml" filepath="$PROJECT_DIR$/ExerPlayer/ExerPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Impressora/Impressora.iml" filepath="$PROJECT_DIR$/Impressora/Impressora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Projetos_Java_4_Bim.iml" filepath="$PROJECT_DIR$/.idea/Projetos_Java_4_Bim.iml" />
+    </modules>
+  </component>
+</project>

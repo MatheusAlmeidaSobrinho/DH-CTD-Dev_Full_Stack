@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #7898FF;
+    --secondary: #8E64C5;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+#tarjeta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 7px;
+  margin: 10px;
+  height: 250px;
+  width: 60%;
+  max-width: 475px;
+  background: linear-gradient(130deg, rgba(136, 135, 135, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+img {
+  max-width: 150px;
+  border-radius: 7px;
+  margin:7px;
+}
+
+.dados {
+  display: flex;
+  flex-direction: row;
+  padding-right:20px;
+  justify-content: space-between;
+  margin: 10px;
+  color: var(--app-grey);
+}
+
+.imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

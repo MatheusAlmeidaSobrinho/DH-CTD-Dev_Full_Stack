@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkpoint II Pagina Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <div class="botaoHeaderCadastro">
+        <div class="tituloCadastro">CADASTRE-SE ^-^</div>
+      </div>
+    </header>
+    <main>
+      <form id="formDadosCadastrais">
+        <fieldset form="formDadosCadastrais" id="dadosCadastrais">
+          <legend>DADOS CADASTRAIS</legend>
+          <div class="cadNome">
+            <label for="nome" class="labelNome" id="campoNome">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="inputNome"
+              placeholder=" Insira seu nome"
+              required
+            />
+          </div>
+
+          <div class="cadEmail">
+            <label for="email" class="labelEmail">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="inputEmail"
+              placeholder=" Insira seu email"
+              required
+            />
+          </div>
+
+          <div class="cadGenero">
+            <label for="genero" class="labelGenero">Sexo:</label>
+            <select type="select" name="genero" id="selectGenero">
+              <optgroup label="Selecione Seu Genero">
+                <option value="11">Feminino</option>
+                <option value="21">Masculino</option>
+                <option value="31">LGBT+</option>
+                <option value="41">Prefiro não informar</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="cadCpf">
+            <label for="cpf" class="labelCpf">Cpf:</label>
+            <input
+              type="text"
+              name="cpf"
+              id="inputCpf"
+              placeholder=" Opção não obrigatoria!"
+              pattern="[0-9]{11}"
+              maxlength="11"
+            />
+          </div>
+
+          <div class="cadTel">
+            <label for="telefone" class="labelTel">Tel:</label>
+            <input
+              type="tel"
+              id="inputTel"
+              name="telefone"
+              placeholder=" DDD + Numero"
+              pattern="[0-9]{11}"
+              maxlength="11"
+            />
+          </div>
+
+          <div class="cadDataNasc">
+            <label for="dataNasc" class="labelDataNasc">Data Nasc:</label>
+            <input type="date" name="dataNasc" id="inputDataNasc" />
+          </div>
+
+          <div class="faixaIdade">
+            <div class="menorOUmaiorIdade">Idade:</div>
+
+            <input type="radio" name="Idade" id="menorIdade" />
+            <label for="menorIdade" class="menorIdade">Menor 18 anos</label>
+
+            <input type="radio" name="Idade" id="maiorIdade" />
+            <label for="maiorIdade" class="maiorIdade">Maior 18 anos</label>
+          </div>
+        </fieldset>
+        <div class="buttons">
+          <button type="reset" class="botoesFinal">Limpar</button>
+          <button type="submit" class="botoesFinal" id="botaoEnviar">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+git init - inicia um novo repositório
+git status - verifica o status dos arquivos e diretórios
+git add - adiciona um arquivo
+git log - mostra o histórico de atividades
+git checkout -b nome_branch - cria uma nova branch
+git checkout nome_branch - acessa a branch desejada
+git pull - atualiza arquivos em relação a branch atualiza
+git clone - clona uma repositório existente

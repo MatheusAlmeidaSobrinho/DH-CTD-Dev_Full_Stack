@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+* {
+  font-family: 'Zen Antique Soft', serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-sizing: border-box;
+}
+
+.media-picture {
+  margin-left: 240px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgba(41, 136, 190, 0.822);
+  background-image: url(../images/background_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: auto; /* pqp os dois margin fez com que eu finalmente deixasse a img no centro*/
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 25px;
+  color: rgba(18, 180, 132, 0.822);
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 18px;
+  background-color: rgb(149, 209, 219);
+  color: rgb(10, 112, 143);
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 6px;
+  border: solid 3px rgb(13, 164, 202);
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  box-sizing: border-box;
+}
+.review-score {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-size: 16px;
+  background-color: rgb(236, 146, 146);
+  color: rgb(126, 0, 0);
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 3px 3px 3px 3px;
+  border: double 3px rgb(156, 11, 11);
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!------------------------------- estilos CSS ------------------------------->
+
+  <link rel="stylesheet" href="./styles/tarefas.css">
+  <link rel="stylesheet" href="./styles/spinner.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!--------------------- Biblioteca de icones - Fontawesome ---------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!------------------------------- sweet alert ------------------------------->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- CDN example (unpkg) -->
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script defer src="scripts/loaders/loaders.js"></script>
+  <script defer src="scripts/tasks/addTasks.js"></script>
+  <script defer src="scripts/tasks/editTasks.js"></script>
+  <script defer src="scripts/tasks/delTasks.js"></script>
+  <script defer src="scripts/tasks/editTasks.js"></script>
+  <script defer src="scripts/tasks/configTasks.js"></script>
+
+
+
+  
+  <title>To-Do App</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">Tarefas</a>
+    </nav>
+
+    <div class="user-info">
+      <p id="p-user-info"></p>
+      <div class="user-image"></div>
+      <p id="closeApp">Finalizar sessão</i>
+      </p>
+    </div>
+  </header>
+
+
+  <form class="nova-tarefa">
+    <div class="not-done "></div>
+    <input id="novaTarefa" type="text" placeholder="Nova tarefa">
+    <div id="radioGroup">
+      <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+      <label for="radio-1" class="radio-custom-label">Pendente</label>
+      <input id="radio-2" class="radio-custom" name="radio-group" type="radio">
+      <label for="radio-2" class="radio-custom-label">Concluída</label>
+    </div>
+    <button type="submit" id="btAddTask">
+      <img src="./assets/plus.png" alt="Adicionar uma nova tarefa">
+    </button>
+  </form>
+
+
+  <ul class="tarefas-pendentes">
+    <div id="skeleton">
+
+    </div>
+  </ul>
+
+  <h2 class="titulo-terminadas">Tarefas terminadas</h2>
+  <ul class="tarefas-terminadas">
+    <div id="skeleton">
+
+    </div>
+  </ul>
+
+
+</body>
+
+</html>

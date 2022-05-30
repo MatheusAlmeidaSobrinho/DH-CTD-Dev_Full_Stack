@@ -1,0 +1,8 @@
+Quem inventou o sistema de controle de versão Github e por quê?
+O Github foi criado por Linus Torvalds, em 2005, visando atender a necessidade de um sistema de distribuição descentralizada, disponibilizando um controle de versão remoto.
+
+Quem atualmente é o dono do Github e por quê?
+Atualmente, a Microsoft é a proprietária do Github. A empresa viabilizou a compra pois a ferramenta é voltada ao desenvolvedor, o que auxiliará bastante no desenvolvimento de software. Um código aberto possibilta que outros desenvolvedores estudem, modifiquem e contribuem com o código.
+
+Existe outra maneira, além do terminal, de trabalhar com o Github?
+Podemos trabalhar no Github em sua própria plataforma online.
