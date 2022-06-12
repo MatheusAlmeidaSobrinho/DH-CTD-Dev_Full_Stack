@@ -1,0 +1,17 @@
+body {
+  background-color:bisque;
+}
+
+#bat1 {
+display: inline;
+padding-bottom: 20px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+#bat2 {
+  display: block;
+  padding-bottom: 20px;
+  }

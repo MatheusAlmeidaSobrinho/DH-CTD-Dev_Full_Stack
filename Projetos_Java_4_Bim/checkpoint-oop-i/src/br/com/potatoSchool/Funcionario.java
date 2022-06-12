@@ -15,11 +15,11 @@ public class Funcionario extends Pessoa{
     }
 
     public double desconto(){
-        return this.salario * 0.015;
+        return this.salario * 0.025;
     }
 
     public double bonificacao(){
-        return this.salario * 0.025;
+        return this.salario * 0.075;
     }
 
     public double salarioLiquido(){
