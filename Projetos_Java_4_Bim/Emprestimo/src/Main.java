@@ -20,6 +20,8 @@ public class Main {
         pessoa1.quitarDivida();
         pessoa1.clienteDeve();
 
+        System.out.println("ат");
+
 
     }
 }

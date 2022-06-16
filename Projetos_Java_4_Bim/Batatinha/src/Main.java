@@ -427,7 +427,7 @@ public class Main
      */
 
 
-        public static void main(String[] args)
+      /*  public static void main(String[] args)
         {
             Artigo batatinha = new Artigo("Artigo 1",1250.00,100);
 
@@ -438,6 +438,57 @@ public class Main
 
             System.out.println("O preco de venda e: " + batatinha.consultarPreco());
         }
+    */
+
+   /* public static void main(String[] args)
+    {
+        for(int linha = 0; linha < 50; linha++)
+        {
+            for (int coluna = 0; coluna <= linha; coluna++)
+            {
+                        System.out.print( coluna +1 + " ");
+            }
+                    System.out.println();
+        }
+    }
+*/
+   /* public static void main(String[] args) {
+       for (int multiplicador = 1; multiplicador <= 10; multiplicador++) {
+           for(int contador = 1; contador <= 10; contador++) {
+               System.out.print(multiplicador * contador);
+               System.out.print(" ");
+           }
+           System.out.println();
+       }
+
+
+   } */
+
+   /* public static void main(String[] args)
+    {
+        for (int i = 1; i < 150; i++)
+        {
+            if(i == 2 || i == 3 || i == 5 || i == 7)
+            {
+                System.out.println(i);
+            }
+            else if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0)
+            {
+                System.out.println(i);
+            }
+        }
+    }
+
+    */
+    /*
+   public static void main(String[] args)
+   {
+       int fatorial = 1;
+       for (int i = 1; i < 11; i++)
+       {
+           fatorial *= i; System.out.println("Fatorial de " + i + " = " + fatorial);
+       }
+   }*/
 
 }
 
