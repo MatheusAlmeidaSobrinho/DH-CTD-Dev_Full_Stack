@@ -1,10 +1,13 @@
 package Robos;
 
-public interface Commands
+private interface Commands
 {
     public int atacar(int ataque);
+
+    public boolean Locomocao();
 
     public int defender(int defesa);
 
     public void voar();
+
 }

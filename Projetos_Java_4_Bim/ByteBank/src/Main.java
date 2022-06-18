@@ -1,20 +1,21 @@
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
 
-        Conta cc1 = new Conta();
-        Conta cc2 = new Conta();
+        ContaCorrente cc = new ContaCorrente(100,321);
+        ContaPoupanca cp = new ContaPoupanca(200,321);
 
-        cc1.depositar(100);
-        cc2.depositar(500);
+        cc.depositar(250.0);
+        cp.depositar(500.0);
 
-        System.out.println(cc1.saldo);
-        System.out.println(cc2.saldo);
+        cc.transferir(100.0,cp);
+        cp.transferir(100.0,cc);
 
-        cc2.transferir(200,cc1);
+        System.out.println("CC:" + cc.getSaldo());
+        System.out.println("CP:" + cp.getSaldo());
 
-        System.out.println(cc1.saldo);
-        System.out.println(cc2.saldo);
-
-        cc1.sacar(150);
+        cc.sacar(50.0);
+        System.out.println("CC:" + cc.getSaldo());
     }
 }

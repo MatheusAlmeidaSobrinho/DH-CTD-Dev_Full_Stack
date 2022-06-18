@@ -2,20 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7cb32d0-be8e-4e57-b77d-124efcf2b98d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_01/Udemy_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_01/src/application/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy_01/src/entities/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Udemy_01/application/Program.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Udemy_01/entities/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/Exer_Banco_Conta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/CalculaIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/SeguroDeVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/TesteContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/TesteTributaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/Exer_Banco_Conta/src/Tributavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/Exer_Funcionarios_Empresa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/AutenticadorMetodosInterfaceAutenticavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Autenticavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/ControleBonificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Designer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/EditorVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/SistemaInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/TesteFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/TesteGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/TesteReferencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project's_Java_Ver_2/ExercicioByteBank/src/MyProjectClass/TesteSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank/src/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank/src/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/ByteBank_Heranca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/src/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/src/MetodoGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ByteBank_Heranca/src/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/out/production/ByteBank/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/out/production/ByteBank/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/out/production/ByteBank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/out/production/ByteBank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteBank/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ByteBank/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JogoRoboGuerra/src/Robos/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/JogoRoboGuerra/src/Robos/Commands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +81,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="29rkRf9eKBOq1ULr9QeCqGgQ3gh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
