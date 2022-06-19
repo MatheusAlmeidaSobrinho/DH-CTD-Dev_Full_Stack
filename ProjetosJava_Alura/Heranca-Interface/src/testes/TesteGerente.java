@@ -1,3 +1,8 @@
+package testes;
+
+import aplicacao.Autenticavel;
+import aplicacao.Cliente;
+import aplicacao.Gerente;
 
 public class TesteGerente {
 

@@ -1,5 +1,7 @@
-//Gerente eh um Funcionario, Gerente herda da class Funcionario, assina o contrato Autenticavel, eh um Autenticavel
-public class Gerente extends Funcionario implements Autenticavel{
+package aplicacao;
+
+//aplicacao.Gerente eh um aplicacao.Funcionario, aplicacao.Gerente herda da class aplicacao.Funcionario, assina o contrato aplicacao.Autenticavel, eh um aplicacao.Autenticavel
+public class Gerente extends Funcionario implements Autenticavel {
 	
 	private AutenticacaoUtil autenticador;
 

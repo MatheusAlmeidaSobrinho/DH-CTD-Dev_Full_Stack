@@ -1,3 +1,7 @@
+package testes;
+
+import aplicacao.Cliente;
+import aplicacao.Gerente;
 
 public class TesteFuncionario {
 

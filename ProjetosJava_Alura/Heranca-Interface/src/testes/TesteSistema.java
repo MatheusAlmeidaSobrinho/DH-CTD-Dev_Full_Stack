@@ -1,3 +1,9 @@
+package testes;
+
+import aplicacao.Administrador;
+import aplicacao.Cliente;
+import aplicacao.Gerente;
+import aplicacao.SistemaInterno;
 
 public class TesteSistema {
 

@@ -1,5 +1,11 @@
+package aplicacao;
 
 //nao pode instanciar dessa classe, pq é abstrata
+
+/**
+ * @author MatheusAS
+ *
+ */
 public abstract class Funcionario {
 	
 	private String nome;

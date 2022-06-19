@@ -1,5 +1,6 @@
+package aplicacao;
 
-//contrato Autenticavel
+//contrato aplicacao.Autenticavel
 	//quem assina esse contrato, precisa implementar
 		//metodo setSenha
 		//metodo autentica

@@ -1,4 +1,6 @@
-//Gerente eh um Funcionario, Gerente herda da class Funcionario
+package aplicacao;
+
+//aplicacao.Gerente eh um aplicacao.Funcionario, aplicacao.Gerente herda da class aplicacao.Funcionario
 public class EditorVideo extends Funcionario {
 	
 	public double getBonificacao() {

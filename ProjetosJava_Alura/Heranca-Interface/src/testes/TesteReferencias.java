@@ -1,3 +1,9 @@
+package testes;
+
+import aplicacao.ControleBonificacao;
+import aplicacao.Designer;
+import aplicacao.EditorVideo;
+import aplicacao.Gerente;
 
 public class TesteReferencias {
 
