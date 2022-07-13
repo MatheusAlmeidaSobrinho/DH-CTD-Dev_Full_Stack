@@ -123,9 +123,7 @@ public class Main
         System.out.printf("Informe o segundo numero: %n");
         num2= scanner.nextInt();
         System.out.printf("Informe o terceiro numero: %n");
-        num3= scanner.nextInt();
-
-        if (num1 == num2 && num1 == num2 && num2 == num3)
+        num3= scanner.nextInt();if (num1 == num2 && num1 == num2 && num2 == num3)
         {
             System.out.printf("Todos os numeros sao iguais %n");
 
@@ -134,6 +132,8 @@ public class Main
         {
             System.out.printf("Todos os numeros sao diferentes %n");
         }
+
+
 
         if (num1 > num2 && num1 > num3)
         {
