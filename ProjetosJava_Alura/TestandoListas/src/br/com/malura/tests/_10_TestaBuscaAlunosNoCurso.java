@@ -3,6 +3,7 @@ package br.com.malura.tests;
 import br.com.malura.models.Aluno;
 import br.com.malura.models.Aula;
 import br.com.malura.models.Curso;
+import br.com.malura.myException.minhaExcecao;
 
 public class _10_TestaBuscaAlunosNoCurso {
     public static void main(String[] args) {
@@ -24,6 +25,28 @@ public class _10_TestaBuscaAlunosNoCurso {
 
         System.out.println(javaDoZero.getNomeAlunos());
 
+        //Usando metodo com utilização do for
         System.out.println("Quem é o aluno com matricula 2:");
+        System.out.println(javaDoZero.buscarAlunoPorMatricula(2));
+        try {
+            System.out.println("Quem é o aluno com matricula 7:");
+            System.out.println(javaDoZero.buscarAlunoPorMatricula(7));
+        }catch (minhaExcecao ex){
+            System.err.println("Erro:" + ex.getMessage());
+        }
+
+        //Usando metodo com utilização do Map
+        System.out.println(javaDoZero.buscarAlunoPorMatriculaVersaoMap(2));
+        System.out.println(javaDoZero.buscarAlunoPorMatriculaVersaoMap(7));
+
+
+        System.out.println("Buscar por nome do aluno: Javinha");
+        System.out.println(javaDoZero.buscaAlunoPorNome("Javinha"));
+        try {
+        System.out.println("Buscar por nome do aluno: Batatinha");
+        System.out.println(javaDoZero.buscaAlunoPorNome("Batatinha"));
+        }catch (minhaExcecao ex){
+            System.err.println("Erro:" + ex.getMessage());
+        }
     }
 }
