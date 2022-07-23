@@ -48,6 +48,14 @@ public class Curso {
         return tempoTotal;
     }
 
+    public int getSomaMatriculas() {
+        int totalMatricula = 0;
+        for (Aluno aluno: alunos) {
+            totalMatricula+= aluno.getNumeroMatricula();
+        }
+        return totalMatricula;
+    }
+
     @Override
     public String toString() {
         return "[Curso: " + this.nome + ", ministrado por: " + this.professor + ", duração: " + getTempoTotal() + "]"+
@@ -56,5 +64,13 @@ public class Curso {
 
     public boolean alunoEstaMatriculado(Aluno aluno) {
         return this.alunos.contains(aluno);
+    }
+
+    public String getNomeAlunos() {
+        String listaNomeAlunos = "";
+        for (Aluno aluno: alunos) {
+            listaNomeAlunos+= "[" + aluno.getNome() + "] ";
+        }
+        return listaNomeAlunos;
     }
 }

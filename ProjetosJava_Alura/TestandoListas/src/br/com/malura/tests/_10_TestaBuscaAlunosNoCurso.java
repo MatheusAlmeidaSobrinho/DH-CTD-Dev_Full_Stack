@@ -22,6 +22,8 @@ public class _10_TestaBuscaAlunosNoCurso {
         javaDoZero.matriculaAluno(aluno4);
         javaDoZero.matriculaAluno(aluno5);
 
+        System.out.println(javaDoZero.getNomeAlunos());
+
         System.out.println("Quem é o aluno com matricula 2:");
     }
 }

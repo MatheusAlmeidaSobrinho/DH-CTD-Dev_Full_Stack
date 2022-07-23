@@ -10,6 +10,7 @@ public class _6_7_TestaCursoComAluno {
     public static void main(String[] args) {
         Curso javaDoZero = new Curso("Teste Collections e Set","ItsMy");
 
+
         javaDoZero.adicionaAula(new Aula("Metodos mais usados", 22));
         javaDoZero.adicionaAula(new Aula("Por que usar Set", 11));
         javaDoZero.adicionaAula(new Aula("Aula praticando Set / HashSet / Collections", 33));
@@ -20,6 +21,8 @@ public class _6_7_TestaCursoComAluno {
 
         Aluno aluno4 = new Aluno("Javinha",1);
         javaDoZero.matriculaAluno(aluno4);
+
+
 
         System.out.println(javaDoZero.getAlunos()); // antes do toString retornava as referencias
 
@@ -70,5 +73,7 @@ public class _6_7_TestaCursoComAluno {
         while (iterador.hasNext()) {
             System.out.println(iterador.next());
         }
+
+        System.out.println(javaDoZero.getSomaMatriculas());
     }
 }
