@@ -1,11 +1,8 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class _4_TestesStreams {
+public class _4_5_TestesStreams {
     public static void main(String[] args) {
         List<Curso> cursos = new ArrayList<Curso>();
         cursos.add(new Curso("Python", 45));
