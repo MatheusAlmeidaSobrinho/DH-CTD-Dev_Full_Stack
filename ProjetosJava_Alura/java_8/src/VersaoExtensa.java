@@ -21,10 +21,18 @@ public class VersaoExtensa {
 
         System.out.println(words);
 
-        for (String nomeJogos: words) {
+        for (String nomeJogos : words) {
 
             System.out.println(nomeJogos);
         }
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Executando um Runnable");
+            }
+        }).start();
+
     }
 }
 
@@ -37,7 +45,7 @@ class ImprimeNaLinha implements Consumer<String> {
 
 }
 
-class ComparadorPorTamanho implements Comparator<String>{
+class ComparadorPorTamanho implements Comparator<String> {
     @Override
     public int compare(String s1, String s2) {
         if (s1.length() < s2.length())
@@ -45,5 +53,6 @@ class ComparadorPorTamanho implements Comparator<String>{
         if (s1.length() > s2.length())
             return 1;
         return 0;
+        // daria para fazer esse if assim: return Integer.compare(s1.length(), s2.length());
     }
 }
