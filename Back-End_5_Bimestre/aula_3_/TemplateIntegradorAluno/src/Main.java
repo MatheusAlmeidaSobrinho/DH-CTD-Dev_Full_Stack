@@ -40,5 +40,6 @@ public class Main {
         System.out.println(indigente1.mostrarCategoria());
         System.out.println(indigente2.mostrarCategoria());
 
+
     }
 }

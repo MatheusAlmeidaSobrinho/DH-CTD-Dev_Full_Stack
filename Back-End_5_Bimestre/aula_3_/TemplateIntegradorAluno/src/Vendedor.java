@@ -18,20 +18,7 @@ public abstract class Vendedor {
 
     /*TEMPLATE METHOD - recebe o total de pontos calculados a partir
     da subclasse e valida cada item para retornar a categoria*/
-    public String mostrarCategoria() {
-        if (calcularPontos() < 20){
-            return "[Nome Vendedor: " + this.nome + ", pontuacao: " + calcularPontos() + ", categoria: Novato]";
-        }
-        else if (calcularPontos() > 19 && calcularPontos() < 31){
-            return "[Nome Vendedor: " + this.nome + ", pontuacao: " + calcularPontos() + ", categoria: Aprendiz]";
-        }
-        else if (calcularPontos() > 30 && calcularPontos() < 41){
-            return "[Nome Vendedor: " + this.nome + ", pontuacao: " + calcularPontos() + ", categoria: Bom]";
-        }
-        else {
-            return "[Nome Vendedor: " + this.nome + ", pontuacao: " + calcularPontos() + ", categoria: Mestre Jedi]";
-        }
-    }
+    public abstract String mostrarCategoria();
 }
 
 

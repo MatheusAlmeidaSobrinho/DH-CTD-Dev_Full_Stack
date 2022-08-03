@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
     Funcionario func1, func2, func3, func4;
-    Vendedor afi1, afi2, afi3, afi4;
+    Afiliado afi1, afi2, afi3, afi4;
     Estagiario indigente1, indigente2;
 
     @BeforeEach
     public void doBefore() {
-        Funcionario func1 = new Funcionario("Potato",0);
+        Funcionario func1 = new Funcionario("Potato",1);
         func1.vender(2);
         Funcionario func2 = new Funcionario("Fries",2);
         func2.vender(3);
@@ -20,13 +20,13 @@ public class MainTest {
         Funcionario func4 = new Funcionario("CeLoko",0);
         func4.vender(5);
 
-        Vendedor afi1 = new Afiliado("Batata");
+        Afiliado afi1 = new Afiliado("Batata");
         afi1.vender(1);
-        Vendedor afi2 = new Afiliado("Alfa");
+        Afiliado afi2 = new Afiliado("Alfa");
         afi2.vender(2);
-        Vendedor afi3 = new Afiliado("Beta");
+        Afiliado afi3 = new Afiliado("Beta");
         afi3.vender(3);
-        Vendedor afi4 = new Afiliado("Gama");
+        Afiliado afi4 = new Afiliado("Gama");
         afi4.vender(4);
 
         Estagiario indigente1 = new Estagiario("FazNada");
