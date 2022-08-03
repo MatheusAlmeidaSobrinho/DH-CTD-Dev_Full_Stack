@@ -1,9 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
-import static org.junit.jupiter.api.Assertions.*;
-
 public class MainTest {
     Funcionario func1, func2, func3, func4;
     Afiliado afi1, afi2, afi3, afi4;
@@ -11,26 +8,26 @@ public class MainTest {
 
     @BeforeEach
     public void doBefore() {
-        Funcionario func1 = new Funcionario("Potato",1);
+        func1 = new Funcionario("Potato",1);
         func1.vender(2);
-        Funcionario func2 = new Funcionario("Fries",2);
+        func2 = new Funcionario("Fries",2);
         func2.vender(3);
-        Funcionario func3 = new Funcionario("ItsMy",5);
+        func3 = new Funcionario("ItsMy",5);
         func3.vender(4);
-        Funcionario func4 = new Funcionario("CeLoko",0);
+        func4 = new Funcionario("CeLoko",0);
         func4.vender(5);
 
-        Afiliado afi1 = new Afiliado("Batata");
+        afi1 = new Afiliado("Batata");
         afi1.vender(1);
-        Afiliado afi2 = new Afiliado("Alfa");
+        afi2 = new Afiliado("Alfa");
         afi2.vender(2);
-        Afiliado afi3 = new Afiliado("Beta");
+        afi3 = new Afiliado("Beta");
         afi3.vender(3);
-        Afiliado afi4 = new Afiliado("Gama");
+        afi4 = new Afiliado("Gama");
         afi4.vender(4);
 
-        Estagiario indigente1 = new Estagiario("FazNada");
-        Estagiario indigente2 = new Estagiario("RapazDoCafe");
+        indigente1 = new Estagiario("FazNada");
+        indigente2 = new Estagiario("RapazDoCafe");
 
         func1.addAfiliado(afi1);
         func2.addAfiliado(afi2);
@@ -56,7 +53,5 @@ public class MainTest {
         System.out.println(indigente2.mostrarCategoria());
 
     }
-
-
 
 }

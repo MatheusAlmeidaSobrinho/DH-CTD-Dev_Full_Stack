@@ -13,16 +13,16 @@ public class Afiliado extends Vendedor{
     @Override
     public String mostrarCategoria() {
         if (calcularPontos() < 20){
-            return "[Nome Afiliado: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Novato]";
+            return "[Nome Afiliado: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Novato]";
         }
         else if (calcularPontos() > 19 && calcularPontos() < 31){
-            return "[Nome Afiliado: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Aprendiz]";
+            return "[Nome Afiliado: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Aprendiz]";
         }
         else if (calcularPontos() > 30 && calcularPontos() < 41){
-            return "[Nome Afiliado: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Bom]";
+            return "[Nome Afiliado: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Bom]";
         }
         else {
-            return "[Nome Afiliado: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Mestre Jedi]";
+            return "[Nome Afiliado: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Mestre Jedi]";
         }
     }
 

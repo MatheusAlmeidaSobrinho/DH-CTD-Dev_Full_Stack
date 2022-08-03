@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dff56bb-7487-4c84-b5d9-70110c4ed12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aula_4_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creditoBanco/aula_4_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creditoBanco/creditoBanco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creditoBanco/out/production/aula_4_/creditos/creditos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creditoBanco/src/creditos/creditos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Afiliado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Afiliado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/TemplateIntegradorAluno/src/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Afiliado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Afiliado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Vendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_3_/out/production/aula_3_/Vendedor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.br.com.matheus.governo.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creditos.src.com.dh.banco.Main" />

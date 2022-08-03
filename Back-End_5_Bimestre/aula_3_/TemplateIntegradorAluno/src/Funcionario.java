@@ -22,16 +22,16 @@ public class Funcionario extends Vendedor {
     @Override
     public String mostrarCategoria() {
         if (calcularPontos() < 20){
-            return "[Nome Funcionario: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Novato]";
+            return "[Nome Funcionario: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Novato]";
         }
         else if (calcularPontos() > 19 && calcularPontos() < 31){
-            return "[Nome Funcionario: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Aprendiz]";
+            return "[Nome Funcionario: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Aprendiz]";
         }
         else if (calcularPontos() > 30 && calcularPontos() < 41){
-            return "[Nome Funcionario: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Bom]";
+            return "[Nome Funcionario: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Bom]";
         }
         else {
-            return "[Nome Funcionario: " + super.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Mestre Jedi]";
+            return "[Nome Funcionario: " + this.nome + ", pontuacao: " + this.calcularPontos() + ", categoria: Mestre Jedi]";
         }
     }
 
