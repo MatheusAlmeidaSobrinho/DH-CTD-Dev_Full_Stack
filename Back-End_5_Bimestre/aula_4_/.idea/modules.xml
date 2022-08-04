@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" filepath="$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" filepath="$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" />
       <module fileurl="file://$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" filepath="$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxyPattern/proxyPattern.iml" filepath="$PROJECT_DIR$/proxyPattern/proxyPattern.iml" />
     </modules>
   </component>
 </project>
