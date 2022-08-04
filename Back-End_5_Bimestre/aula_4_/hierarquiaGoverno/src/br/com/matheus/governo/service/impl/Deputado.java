@@ -8,7 +8,7 @@ public class Deputado extends FuncionariosGoverno {
     public void processarDocumento(String documento, Integer nivelAcesso) {
         if (nivelAcesso == 1) {
             System.out.println("Mensagem de acesso nivel: 1 [" + documento + "]");
-        } else if(this.proximoFuncionario != null){
+        } else if (this.proximoFuncionario != null) {
             this.proximoFuncionario.processarDocumento(documento, nivelAcesso);
         }
     }

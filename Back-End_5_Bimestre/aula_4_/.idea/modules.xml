@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aula_4_.iml" filepath="$PROJECT_DIR$/.idea/aula_4_.iml" />
       <module fileurl="file://$PROJECT_DIR$/creditoBanco/creditoBanco.iml" filepath="$PROJECT_DIR$/creditoBanco/creditoBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" filepath="$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" filepath="$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" filepath="$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" />
     </modules>
   </component>
 </project>
