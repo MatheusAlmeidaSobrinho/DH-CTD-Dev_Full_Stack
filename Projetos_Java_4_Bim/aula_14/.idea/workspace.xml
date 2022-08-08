@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a309077d-52bb-44a0-bee8-a0e125d82008" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/java_8/src/mytest/Comparavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/java_8/src/mytest/Equipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/java_8/src/mytest/Jogador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/java_8/src/mytest/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/java_8/src/mytest/Testando.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_14/Jogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_14/Jogador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/spotify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/Plano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/Spotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/servicoDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/spotify/src/servicoDownloadProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/aula_4_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/aula_4_5_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/proxyPattern/src/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Back-End_5_Bimestre/aula_4_/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DH - CTD/Projetos_Java_4_Bim/aula_14&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/DH - CTD/Back-End_5_Bimestre/Integrador2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
