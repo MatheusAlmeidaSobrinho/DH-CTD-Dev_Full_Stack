@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c043ef5-137e-45da-a1a3-a12f039de1bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/spotify.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Plano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Spotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/servicoDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/servicoDownloadProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula_6_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/FilmeNaoHabilitadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmesProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmesProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/IGradeDeFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Ip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeriesProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeriesProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/IGradeDeSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/SerieNaoHabilitadaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/aula_4_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/aula_4_5_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_4_/proxyPattern/src/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />

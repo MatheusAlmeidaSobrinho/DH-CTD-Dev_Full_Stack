@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dff56bb-7487-4c84-b5d9-70110c4ed12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spotify/spotify.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/Plano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/Spotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/servicoDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spotify/src/servicoDownloadProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/aula_6_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/GradeDeFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/GradeDeFilmesProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/IGradeDeFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Ip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aula_4_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aula_4_5_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_6_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_6_/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
