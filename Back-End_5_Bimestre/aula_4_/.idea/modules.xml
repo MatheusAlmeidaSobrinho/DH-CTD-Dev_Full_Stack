@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/aula_4_.iml" filepath="$PROJECT_DIR$/.idea/aula_4_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aula_4_5_.iml" filepath="$PROJECT_DIR$/.idea/aula_4_5_.iml" />
       <module fileurl="file://$PROJECT_DIR$/creditoBanco/creditoBanco.iml" filepath="$PROJECT_DIR$/creditoBanco/creditoBanco.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" filepath="$PROJECT_DIR$/exercicioMesa/exercicioMesa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" filepath="$PROJECT_DIR$/hierarquiaGoverno/hierarquiaGoverno.iml" />
       <module fileurl="file://$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" filepath="$PROJECT_DIR$/mesaDeTrabalho/mesaDeTrabalho.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxyPattern/proxyPattern.iml" filepath="$PROJECT_DIR$/proxyPattern/proxyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spotify/spotify.iml" filepath="$PROJECT_DIR$/spotify/spotify.iml" />
     </modules>
   </component>
 </project>

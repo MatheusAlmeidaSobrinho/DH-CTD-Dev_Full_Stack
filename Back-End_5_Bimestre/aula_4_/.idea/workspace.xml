@@ -2,22 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dff56bb-7487-4c84-b5d9-70110c4ed12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/proxyPattern/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/out/production/Proxy_pattern/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/out/production/Proxy_pattern/Pessoa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/out/production/Proxy_pattern/ServicoVacinar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/out/production/Proxy_pattern/ServicoVacinarProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/out/production/Proxy_pattern/Vacinar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/proxyPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern/src/Vacinar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/spotify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/Plano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/Spotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/servicoDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify/src/servicoDownloadProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/aula_6_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/GradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/GradeDeFilmesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/IGradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_6_/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aula_4_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aula_4_5_.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,6 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spotify" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creditos.src.com.dh.banco.Main" />
       <module name="creditoBanco" />
@@ -114,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.br.com.matheus.governo.Main" />
         <item itemvalue="Application.Main" />

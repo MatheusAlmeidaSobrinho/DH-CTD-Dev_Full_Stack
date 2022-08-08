@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c043ef5-137e-45da-a1a3-a12f039de1bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/spotify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Plano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Spotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/servicoDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_4_/spotify/src/servicoDownloadProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula_6_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/FilmeNaoHabilitadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/GradeDeFilmesProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/IGradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioFilme/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeriesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/GradeDeSeriesProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/IGradeDeSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicioSerie/SerieNaoHabilitadaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/aula_4_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/aula_4_5_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_4_/proxyPattern/src/ServicoVacinarProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/proxyPattern/src/ServicoVacinarProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2D2MkpHOvGiTauzXv4y6HMQaQH6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercicioSerie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.exercicioSerie.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicioFilme.Main" />
+      <module name="aula_6_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicioFilme.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercicioSerie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicioSerie.Main" />
+      <module name="aula_6_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicioSerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeDeSeriesProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula_6_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicioSerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicioSerie" />
+      <option name="MAIN_CLASS_NAME" value="exercicioSerie.GradeDeSeriesProxyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeDeSeriesProxyTest.mostraSerie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula_6_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicioSerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicioSerie" />
+      <option name="MAIN_CLASS_NAME" value="exercicioSerie.GradeDeSeriesProxyTest" />
+      <option name="METHOD_NAME" value="mostraSerie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.exercicioSerie.Main" />
+        <item itemvalue="JUnit.GradeDeSeriesProxyTest" />
+        <item itemvalue="JUnit.GradeDeSeriesProxyTest.mostraSerie" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c043ef5-137e-45da-a1a3-a12f039de1bc" name="Changes" comment="" />
+      <created>1659892876631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659892876631</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
