@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dff56bb-7487-4c84-b5d9-70110c4ed12d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../aula_6_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_6_/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projetos_Java_4_Bim/aula_14/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dff56bb-7487-4c84-b5d9-70110c4ed12d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DH - CTD/Back-End_5_Bimestre/aula_4_/mesaDeTrabalho&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/DH - CTD/Back-End_5_Bimestre/exemplo_comida",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DH - CTD\Back-End_5_Bimestre\aula_4_\mesaDeTrabalho" />
