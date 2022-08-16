@@ -32,23 +32,6 @@
         <jarDirectory url="file://$MODULE_DIR$/../../../apache-log4j-1.2.17" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../H2" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../../H2/docs/javadoc" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../H2/src/java10/src" />
-          <root url="file://$MODULE_DIR$/../../../H2/src/java9/src" />
-          <root url="file://$MODULE_DIR$/../../../H2/src/main" />
-          <root url="file://$MODULE_DIR$/../../../H2/src/test" />
-          <root url="file://$MODULE_DIR$/../../../H2/src/tools" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
