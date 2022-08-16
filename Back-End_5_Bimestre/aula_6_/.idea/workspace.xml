@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c043ef5-137e-45da-a1a3-a12f039de1bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/aula_7_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioGuiado/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioGuiado/ComputadorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioGuiado/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioMesa/Arvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioMesa/ArvoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_7_/src/exercicioMesa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/aula_8_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/methodFacade/FacadeDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/models/ApiCartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/models/ApiProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/models/ApiQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/models/Cartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioAula/models/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioMesa/ApiHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioMesa/ApiVoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_8_/src/exercicioMesa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemplo_comida/exemplo_comida.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_4_/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_9_/src/ExercicioIntegrador/service/impl/FacadeRoupaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_9_/aula_9_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_9_/aula_9_.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,7 +2,6 @@ package ExercicioIntegrador.service.impl;
 
 import ExercicioIntegrador.models.*;
 import ExercicioIntegrador.service.IflyRoupa;
-import ExercicioIntegrador.service.impl.*;
 
 import java.util.Map;
 
@@ -49,4 +48,6 @@ public class FacadeRoupa implements IflyRoupa {
     public Map<String, Roupa> getListaMapEimportada() {
         return roupaEimportada.getListaMapEimportada();
     }
+
+
 }
