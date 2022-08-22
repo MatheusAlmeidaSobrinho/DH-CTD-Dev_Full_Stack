@@ -71,14 +71,13 @@ public class Simbora {
             e.printStackTrace();
 
         } finally {
-            logger.info("Usuario 5 inserido com sucesso");
 
             statement.execute(update1);
             logger.debug("Usuario Cloud, Id 1 atualizado com sucesso");
 
             statement.execute(sqlDelete1);
             logger.info("Usuario Potato deletado com sucesso");
-
+ 
             statement.execute(sqlDelete2);
             logger.info("Usuario Elesis deletado com sucesso");
 

@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS filial; create table if not exists filial(id int auto_increment primary key, nome varchar(255), rua varchar(255),
+numero int, cidade varchar(255), estado varchar(255), eCincoEstrelas bit);
