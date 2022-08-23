@@ -1,7 +1,7 @@
-package clinicaodontologica.service;
+package clinicaOdontologica.service;
 
-import clinicaodontologica.dao.IDao;
-import clinicaodontologica.model.Paciente;
+import clinicaOdontologica.dao.IDao;
+import clinicaOdontologica.model.Paciente;
 
 public class PacienteService {
 
@@ -14,4 +14,6 @@ public class PacienteService {
     public Paciente salvar(Paciente paciente) {
         return pacienteIDao.salvar(paciente);
     }
+
+
 }

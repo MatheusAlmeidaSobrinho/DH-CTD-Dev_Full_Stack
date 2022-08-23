@@ -1,18 +1,15 @@
-DROP TABLE if EXISTS paciente;
-CREATE TABLE if NOT EXISTS paciente (
-    id int auto_increment primary key,
-    nome varchar(100),
-    sobrenome varchar(100),
-    rg varchar(10),
-    dataDeCadastro varchar(12)
+create table if not exists endereco (
+  idEndereco int auto_increment primary key,
+  rua varchar(255),
+  numero INT,
+  cidade varchar(255),
+  bairro varchar(255));
 
-);
 
-DROP TABLE if EXISTS endereco;
-CREATE TABLE if NOT EXISTS endereco (
-    id int auto_increment primary key,
-    rua varchar(150),
-    numero int,
-    bairro varchar(100),
-    cidade varchar(100)
-);
+create table if not exists paciente (
+  idPaciente INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100),
+  sobrenome VARCHAR(100),
+  data DATE,
+  idEndereco INT,
+  FOREIGN KEY (idEndereco) REFERENCES endereco(idEndereco));

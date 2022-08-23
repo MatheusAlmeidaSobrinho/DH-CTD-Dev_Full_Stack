@@ -1,39 +1,35 @@
-package clinicaodontologica.model;
+package clinicaOdontologica.model;
 
 import java.time.LocalDate;
 
 public class Paciente {
 
-    private int id;
-    private String nome;
-    private String sobrenome;
-    private String rg;
-    private LocalDate dataDeCadastro;
+    private Integer idPaciente;
+    private String nome, sobrenome;
+    private LocalDate data;
     private Endereco endereco;
 
-    public Paciente(int id, String nome, String sobrenome, String rg, LocalDate dataDeCadastro, Endereco endereco) {
-        this.id = id;
+    public Paciente(Integer idPaciente, String nome, String sobrenome, LocalDate data, Endereco endereco) {
+        this.idPaciente = idPaciente;
         this.nome = nome;
         this.sobrenome = sobrenome;
-        this.rg = rg;
-        this.dataDeCadastro = dataDeCadastro;
+        this.data = data;
         this.endereco = endereco;
     }
 
-    public Paciente(String nome, String sobrenome, String rg, LocalDate dataDeCadastro, Endereco endereco) {
+    public Paciente(String nome, String sobrenome, LocalDate data, Endereco endereco) {
         this.nome = nome;
         this.sobrenome = sobrenome;
-        this.rg = rg;
-        this.dataDeCadastro = dataDeCadastro;
+        this.data = data;
         this.endereco = endereco;
     }
 
-    public int getId() {
-        return id;
+    public Integer getIdPaciente() {
+        return idPaciente;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdPaciente(Integer idPaciente) {
+        this.idPaciente = idPaciente;
     }
 
     public String getNome() {
@@ -52,20 +48,12 @@ public class Paciente {
         this.sobrenome = sobrenome;
     }
 
-    public String getRg() {
-        return rg;
+    public LocalDate getData() {
+        return data;
     }
 
-    public void setRg(String rg) {
-        this.rg = rg;
-    }
-
-    public LocalDate getdataDeCadastro() {
-        return dataDeCadastro;
-    }
-
-    public void setData(LocalDate dataDeCadastro) {
-        this.dataDeCadastro = dataDeCadastro;
+    public void setData(LocalDate data) {
+        this.data = data;
     }
 
     public Endereco getEndereco() {
@@ -79,10 +67,10 @@ public class Paciente {
     @Override
     public String toString() {
         return "Paciente{" +
-                "nome='" + nome + '\'' +
+                "idPaciente=" + idPaciente +
+                ", nome='" + nome + '\'' +
                 ", sobrenome='" + sobrenome + '\'' +
-                ", rg='" + rg + '\'' +
-                ", data=" + dataDeCadastro +
+                ", data=" + data +
                 ", endereco=" + endereco +
                 '}';
     }

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1408dfe6-2fc2-452f-9eb1-7b60baec2ca5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/EnderecoIDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/PacienteIDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/EnderecoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PacienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/listaDeContatos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/listadogs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioAula/Cachorro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioAula/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Contato.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_15_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aula_15_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/ConfiguracaoJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/IDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/impl/PacienteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Paciente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/ConfiguracaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/PacienteDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesaPrimitivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioTeste.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Dm00munnk4J4CfPAxOrTrWlPIm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "D:/H2/bin/h2-2.1.214.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DH - CTD\Back-End_5_Bimestre\aula_15_\src" />
+      <recent name="D:\DH - CTD\Back-End_5_Bimestre\aula_15_" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="clinicaOdontologica.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clinicaOdontologica.model.Main" />
+      <module name="aula_15_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clinicaOdontologica.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacienteServiceTest.salvarPaciente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula_15_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PacienteServiceTest" />
+      <option name="METHOD_NAME" value="salvarPaciente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PacienteServiceTest.salvarPaciente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1408dfe6-2fc2-452f-9eb1-7b60baec2ca5" name="Changes" comment="" />
+      <created>1661288736158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661288736158</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

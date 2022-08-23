@@ -1,15 +1,15 @@
-package clinicaodontologica.model;
+package clinicaOdontologica.model;
 
 public class Endereco {
 
-    private int id;
+    private Integer idEndereco;
     private String rua;
     private int numero;
     private String cidade;
     private String bairro;
 
-    public Endereco(int id, String rua, int numero, String cidade, String bairro) {
-        this.id = id;
+    public Endereco(Integer idEndereco, String rua, int numero, String cidade, String bairro) {
+        this.idEndereco = idEndereco;
         this.rua = rua;
         this.numero = numero;
         this.cidade = cidade;
@@ -23,12 +23,12 @@ public class Endereco {
         this.bairro = bairro;
     }
 
-    public int getId() {
-        return id;
+    public Integer getIdEndereco() {
+        return idEndereco;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdEndereco(Integer idEndereco) {
+        this.idEndereco = idEndereco;
     }
 
     public String getRua() {
@@ -66,7 +66,8 @@ public class Endereco {
     @Override
     public String toString() {
         return "Endereco{" +
-                "rua='" + rua + '\'' +
+                "idEndereco=" + idEndereco +
+                ", rua='" + rua + '\'' +
                 ", numero=" + numero +
                 ", cidade='" + cidade + '\'' +
                 ", bairro='" + bairro + '\'' +
