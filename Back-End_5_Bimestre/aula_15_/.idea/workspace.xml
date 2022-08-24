@@ -2,47 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1408dfe6-2fc2-452f-9eb1-7b60baec2ca5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/EnderecoIDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/PacienteIDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinicaodontologica/service/EnderecoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/EnderecoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PacienteServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/listaDeContatos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/listadogs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioAula/Cachorro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioAula/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Contato.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula_15_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aula_15_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/ConfiguracaoJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/IDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/IDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/dao/impl/PacienteDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Endereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/model/Paciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/clinicaodontologica/service/PacienteServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula_15_/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula_15_/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/ConfiguracaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/ConfiguracaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/dao/IDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/dao/impl/PacienteDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/model/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clinicaodontologica/service/PacienteServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesaPrimitivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioAula.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/aula_20_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/empresa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/empresaTeste2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/model/Empresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/model/Funcionario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/src/model/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula_20_/src/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/contas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frases3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frases3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frasesJuntandoEntradaEaSaida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frasesJuntandoEntradaEaSaida.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComEscrita_Saida_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComEscrita_Saida_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComLeitura_Entrada_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComLeitura_Entrada_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComEscrita_Saida_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComEscrita_Saida_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComLeitura_Entrada_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComLeitura_Entrada_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +63,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "D:/H2/bin/h2-2.1.214.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/H2/bin/h2-2.1.214.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DH - CTD\Back-End_5_Bimestre\aula_15_\src" />

@@ -11,6 +11,7 @@ public class TesteComLeitura_Entrada_2 {
             System.out.println(linha);
 
             Scanner linhaScanner = new Scanner(linha);
+
             linhaScanner.useLocale(Locale.US);
             linhaScanner.useDelimiter(",");
             String valor1 = linhaScanner.next();

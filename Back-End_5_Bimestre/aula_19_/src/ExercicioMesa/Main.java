@@ -22,7 +22,7 @@ public class Main {
         contatinhos.add(contato04);
         contatinhos.add(contato05);
 
-        contatinhos.stream().filter(c -> c.getNome().equalsIgnoreCase("Batata"));
+        //contatinhos.stream().filter(c -> c.getNome().equalsIgnoreCase("Batata"));
 
 
         try {

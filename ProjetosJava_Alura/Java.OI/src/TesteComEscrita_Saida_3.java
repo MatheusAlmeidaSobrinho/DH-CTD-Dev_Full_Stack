@@ -9,9 +9,9 @@ public class TesteComEscrita_Saida_3 {
         //PrintStream ps = new PrintStream("frases3.txt");
         PrintWriter ps = new PrintWriter("frases3.txt");
 
-        ps.print("Para a pessoa errada você não terá valor 3");
+        ps.print("Para a pessoa errada você não terá valor 4");
         ps.println();
-        ps.print("Você só terá valor para a pessoa certa 3");
+        ps.print("Você só terá valor para a pessoa certa 4");
 
         ps.close();
     }
