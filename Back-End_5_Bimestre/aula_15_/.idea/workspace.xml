@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1408dfe6-2fc2-452f-9eb1-7b60baec2ca5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/aula_20_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/empresa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/empresaTeste2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/model/Empresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/out/production/aula_20_/model/Funcionario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/src/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/src/model/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_20_/src/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/contas.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/out/production/aula_19_/ExercicioMesa/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_19_/src/ExercicioMesa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frases3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frases3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frasesJuntandoEntradaEaSaida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/frasesJuntandoEntradaEaSaida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComEscrita_Saida_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComEscrita_Saida_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComLeitura_Entrada_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/out/production/resource/TesteComLeitura_Entrada_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComEscrita_Saida_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComEscrita_Saida_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComLeitura_Entrada_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjetosJava_Alura/Java.OI/src/TesteComLeitura_Entrada_2.java" afterDir="false" />
-    </list>
+    <list default="true" id="1408dfe6-2fc2-452f-9eb1-7b60baec2ca5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
