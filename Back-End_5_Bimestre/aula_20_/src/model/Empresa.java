@@ -15,6 +15,12 @@ public class Empresa implements Serializable {
         this.nome = nome;
     }
 
+    public Empresa(String cnpj, String nome, List<Funcionario> funcionario) {
+        this.cnpj = cnpj;
+        this.nome = nome;
+        this.funcionario = funcionario;
+    }
+
     public String getCnpj() {
         return cnpj;
     }
@@ -37,5 +43,14 @@ public class Empresa implements Serializable {
 
     public void adicionaFuncionario(Funcionario funcionario) {
         this.funcionario.add(funcionario);
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "cnpj='" + cnpj + '\'' +
+                ", nome='" + nome + '\'' +
+                ", funcionario=" + funcionario +
+                '}';
     }
 }
